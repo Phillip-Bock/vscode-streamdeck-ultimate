@@ -1,0 +1,91 @@
+Page,Row,Col,Title,Command,Icon,Description
+Navigation & Files,0,0,Quick Open,workbench.action.quickOpen,📁,Open file quickly (Ctrl+P)
+Navigation & Files,0,1,Command Palette,workbench.action.showCommands,⚡,Open command palette (Ctrl+Shift+P)
+Navigation & Files,0,2,Go to Symbol,workbench.action.gotoSymbol,🎯,Navigate to symbol in file (Ctrl+Shift+O)
+Navigation & Files,0,3,Go to Line,workbench.action.gotoLine,↓,Go to specific line (Ctrl+G)
+Navigation & Files,0,4,File Explorer,workbench.view.explorer,📂,Toggle file explorer
+Navigation & Files,1,0,Search,workbench.view.search,🔍,Open search panel
+Navigation & Files,1,1,Source Control,workbench.view.scm,🔀,Open source control
+Navigation & Files,1,2,Extensions,workbench.view.extensions,🧩,Open extensions panel
+Navigation & Files,1,3,Close Editor,workbench.action.closeActiveEditor,❌,Close current file
+Navigation & Files,1,4,Close All,workbench.action.closeAllEditors,🗑️,Close all open files
+Navigation & Files,2,0,Split Editor,workbench.action.splitEditor,⚡,Split editor view
+Navigation & Files,2,1,Next Editor,workbench.action.nextEditor,→,Go to next tab
+Navigation & Files,2,2,Prev Editor,workbench.action.previousEditor,←,Go to previous tab
+Navigation & Files,2,3,New File,workbench.action.files.newUntitledFile,📄,Create new file
+Navigation & Files,2,4,Save All,workbench.action.files.saveAll,💾,Save all open files
+Code Editing,0,0,Format Doc,editor.action.formatDocument,✨,Format entire document
+Code Editing,0,1,Format Select,editor.action.formatSelection,📝,Format selected code
+Code Editing,0,2,Comment Line,editor.action.commentLine,💬,Toggle line comment
+Code Editing,0,3,Block Comment,editor.action.blockComment,📦,Toggle block comment
+Code Editing,0,4,Rename Symbol,editor.action.rename,🏷️,Rename symbol (F2)
+Code Editing,1,0,Find,actions.find,🔎,Find in file
+Code Editing,1,1,Replace,editor.action.startFindReplaceAction,🔄,Find and replace
+Code Editing,1,2,Go to Definition,editor.action.revealDefinition,🎯,Jump to definition
+Code Editing,1,3,Peek Definition,editor.action.peekDefinition,👁️,Peek at definition
+Code Editing,1,4,Find References,editor.action.goToReferences,🔗,Find all references
+Code Editing,2,0,Move Line Up,editor.action.moveLinesUpAction,⬆️,Move line up
+Code Editing,2,1,Move Line Down,editor.action.moveLinesDownAction,⬇️,Move line down
+Code Editing,2,2,Copy Line Up,editor.action.copyLinesUpAction,📋⬆️,Duplicate line up
+Code Editing,2,3,Copy Line Down,editor.action.copyLinesDownAction,📋⬇️,Duplicate line down
+Code Editing,2,4,Delete Line,editor.action.deleteLines,🗑️,Delete current line
+Terminal & Debug,0,0,New Terminal,workbench.action.terminal.new,🖥️,Create new terminal
+Terminal & Debug,0,1,Toggle Terminal,workbench.action.terminal.toggleTerminal,⚡,Show/hide terminal
+Terminal & Debug,0,2,Kill Terminal,workbench.action.terminal.kill,❌,Close active terminal
+Terminal & Debug,0,3,Clear Terminal,workbench.action.terminal.clear,🧹,Clear terminal output
+Terminal & Debug,0,4,Split Terminal,workbench.action.terminal.split,⚡,Split terminal pane
+Terminal & Debug,1,0,Start Debug,workbench.action.debug.start,▶️,Start debugging
+Terminal & Debug,1,1,Stop Debug,workbench.action.debug.stop,⏹️,Stop debugging
+Terminal & Debug,1,2,Step Over,workbench.action.debug.stepOver,⏭️,Step over function
+Terminal & Debug,1,3,Step Into,workbench.action.debug.stepInto,⤵️,Step into function
+Terminal & Debug,1,4,Step Out,workbench.action.debug.stepOut,⤴️,Step out of function
+Terminal & Debug,2,0,Toggle Breakpoint,editor.debug.action.toggleBreakpoint,🔴,Add/remove breakpoint
+Terminal & Debug,2,1,Continue,workbench.action.debug.continue,▶️,Continue execution
+Terminal & Debug,2,2,Restart Debug,workbench.action.debug.restart,🔄,Restart debugging
+Terminal & Debug,2,3,Run Task,workbench.action.tasks.runTask,🏃,Run configured task
+Terminal & Debug,2,4,Problems,workbench.actions.view.problems,⚠️,Show problems panel
+Git Operations,0,0,Git: Commit,git.commit,✅,Commit staged changes
+Git Operations,0,1,Git: Push,git.push,⬆️,Push to remote
+Git Operations,0,2,Git: Pull,git.pull,⬇️,Pull from remote
+Git Operations,0,3,Git: Sync,git.sync,🔄,Sync with remote
+Git Operations,0,4,Git: Fetch,git.fetch,📥,Fetch from remote
+Git Operations,1,0,Stage All,git.stageAll,➕,Stage all changes
+Git Operations,1,1,Unstage All,git.unstageAll,➖,Unstage all changes
+Git Operations,1,2,Show Changes,git.openChange,👁️,View file changes
+Git Operations,1,3,New Branch,git.branch,🌿,Create new branch
+Git Operations,1,4,Checkout,git.checkout,🔀,Switch branch
+Git Operations,2,0,View History,git.viewHistory,📜,View commit history
+Git Operations,2,1,Stash,git.stash,📦,Stash changes
+Git Operations,2,2,Pop Stash,git.stashPop,📤,Apply stashed changes
+Git Operations,2,3,Merge,git.merge,🔗,Merge branch
+Git Operations,2,4,Clone Repo,git.clone,📋,Clone repository
+Workspace & Views,0,0,Zen Mode,workbench.action.toggleZenMode,🧘,Toggle zen mode
+Workspace & Views,0,1,Fullscreen,workbench.action.toggleFullScreen,🖥️,Toggle fullscreen
+Workspace & Views,0,2,Toggle Sidebar,workbench.action.toggleSidebarVisibility,📚,Show/hide sidebar
+Workspace & Views,0,3,Toggle Panel,workbench.action.togglePanel,📊,Show/hide bottom panel
+Workspace & Views,0,4,Settings,workbench.action.openSettings,⚙️,Open settings
+Workspace & Views,1,0,Open Folder,workbench.action.files.openFolder,📂,Open folder/workspace
+Workspace & Views,1,1,Close Folder,workbench.action.closeFolder,❌,Close current workspace
+Workspace & Views,1,2,Recent Workspaces,workbench.action.openRecent,🕐,Open recent workspaces
+Workspace & Views,1,3,New Window,workbench.action.newWindow,🪟,Open new VS Code window
+Workspace & Views,1,4,Reload Window,workbench.action.reloadWindow,🔄,Reload VS Code
+Workspace & Views,2,0,Zoom In,workbench.action.zoomIn,🔍+,Increase zoom level
+Workspace & Views,2,1,Zoom Out,workbench.action.zoomOut,🔍-,Decrease zoom level
+Workspace & Views,2,2,Reset Zoom,workbench.action.zoomReset,🔍,Reset zoom to default
+Workspace & Views,2,3,Keybindings,workbench.action.openGlobalKeybindings,⌨️,Edit keyboard shortcuts
+Workspace & Views,2,4,Color Theme,workbench.action.selectTheme,🎨,Change color theme
+Advanced Features,0,0,Multi-Cursor,editor.action.insertCursorAbove,⬆️|,Add cursor above
+Advanced Features,0,1,Select All Occurrences,editor.action.selectHighlights,🔍✨,Select all matching text
+Advanced Features,0,2,Expand Selection,editor.action.smartSelect.expand,↔️,Smart expand selection
+Advanced Features,0,3,Shrink Selection,editor.action.smartSelect.shrink,↔️,Smart shrink selection
+Advanced Features,0,4,Transform to Upper,editor.action.transformToUppercase,ABC,Convert to uppercase
+Advanced Features,1,0,Transform to Lower,editor.action.transformToLowercase,abc,Convert to lowercase
+Advanced Features,1,1,Sort Lines Asc,editor.action.sortLinesAscending,⬆️📝,Sort lines A-Z
+Advanced Features,1,2,Sort Lines Desc,editor.action.sortLinesDescending,⬇️📝,Sort lines Z-A
+Advanced Features,1,3,Trim Trailing Space,editor.action.trimTrailingWhitespace,🧹,Remove trailing whitespace
+Advanced Features,1,4,Join Lines,editor.action.joinLines,⬅️➡️,Join selected lines
+Advanced Features,2,0,Fold All,editor.foldAll,📁,Collapse all code blocks
+Advanced Features,2,1,Unfold All,editor.unfoldAll,📂,Expand all code blocks
+Advanced Features,2,2,Toggle Fold,editor.toggleFold,📄,Toggle current fold
+Advanced Features,2,3,Show Snippets,editor.action.insertSnippet,✂️,Insert snippet
+Advanced Features,2,4,Emmet Expand,editor.emmet.action.expandAbbreviation,⚡,Expand Emmet abbreviation

@@ -1,0 +1,94 @@
+# Complete Command List for VS Code Stream Deck
+
+## All Available Commands
+
+- **Find**: `actions.find` - Find in file
+- **Block Comment**: `editor.action.blockComment` - Toggle block comment
+- **Comment Line**: `editor.action.commentLine` - Toggle line comment
+- **Copy Line Down**: `editor.action.copyLinesDownAction` - Duplicate line down
+- **Copy Line Up**: `editor.action.copyLinesUpAction` - Duplicate line up
+- **Delete Line**: `editor.action.deleteLines` - Delete current line
+- **Format Doc**: `editor.action.formatDocument` - Format entire document
+- **Format Select**: `editor.action.formatSelection` - Format selected code
+- **Find References**: `editor.action.goToReferences` - Find all references
+- **Multi-Cursor**: `editor.action.insertCursorAbove` - Add cursor above
+- **Show Snippets**: `editor.action.insertSnippet` - Insert snippet
+- **Join Lines**: `editor.action.joinLines` - Join selected lines
+- **Move Line Down**: `editor.action.moveLinesDownAction` - Move line down
+- **Move Line Up**: `editor.action.moveLinesUpAction` - Move line up
+- **Peek Definition**: `editor.action.peekDefinition` - Peek at definition
+- **Rename Symbol**: `editor.action.rename` - Rename symbol (F2)
+- **Go to Definition**: `editor.action.revealDefinition` - Jump to definition
+- **Select All Occurrences**: `editor.action.selectHighlights` - Select all matching text
+- **Expand Selection**: `editor.action.smartSelect.expand` - Smart expand selection
+- **Shrink Selection**: `editor.action.smartSelect.shrink` - Smart shrink selection
+- **Sort Lines Asc**: `editor.action.sortLinesAscending` - Sort lines A-Z
+- **Sort Lines Desc**: `editor.action.sortLinesDescending` - Sort lines Z-A
+- **Replace**: `editor.action.startFindReplaceAction` - Find and replace
+- **Transform to Lower**: `editor.action.transformToLowercase` - Convert to lowercase
+- **Transform to Upper**: `editor.action.transformToUppercase` - Convert to uppercase
+- **Trim Trailing Space**: `editor.action.trimTrailingWhitespace` - Remove trailing whitespace
+- **Toggle Breakpoint**: `editor.debug.action.toggleBreakpoint` - Add/remove breakpoint
+- **Emmet Expand**: `editor.emmet.action.expandAbbreviation` - Expand Emmet abbreviation
+- **Fold All**: `editor.foldAll` - Collapse all code blocks
+- **Toggle Fold**: `editor.toggleFold` - Toggle current fold
+- **Unfold All**: `editor.unfoldAll` - Expand all code blocks
+- **New Branch**: `git.branch` - Create new branch
+- **Checkout**: `git.checkout` - Switch branch
+- **Clone Repo**: `git.clone` - Clone repository
+- **Git: Commit**: `git.commit` - Commit staged changes
+- **Git: Fetch**: `git.fetch` - Fetch from remote
+- **Merge**: `git.merge` - Merge branch
+- **Show Changes**: `git.openChange` - View file changes
+- **Git: Pull**: `git.pull` - Pull from remote
+- **Git: Push**: `git.push` - Push to remote
+- **Stage All**: `git.stageAll` - Stage all changes
+- **Stash**: `git.stash` - Stash changes
+- **Pop Stash**: `git.stashPop` - Apply stashed changes
+- **Git: Sync**: `git.sync` - Sync with remote
+- **Unstage All**: `git.unstageAll` - Unstage all changes
+- **View History**: `git.viewHistory` - View commit history
+- **Close Editor**: `workbench.action.closeActiveEditor` - Close current file
+- **Close All**: `workbench.action.closeAllEditors` - Close all open files
+- **Close Folder**: `workbench.action.closeFolder` - Close current workspace
+- **Continue**: `workbench.action.debug.continue` - Continue execution
+- **Restart Debug**: `workbench.action.debug.restart` - Restart debugging
+- **Start Debug**: `workbench.action.debug.start` - Start debugging
+- **Step Into**: `workbench.action.debug.stepInto` - Step into function
+- **Step Out**: `workbench.action.debug.stepOut` - Step out of function
+- **Step Over**: `workbench.action.debug.stepOver` - Step over function
+- **Stop Debug**: `workbench.action.debug.stop` - Stop debugging
+- **New File**: `workbench.action.files.newUntitledFile` - Create new file
+- **Open Folder**: `workbench.action.files.openFolder` - Open folder/workspace
+- **Save All**: `workbench.action.files.saveAll` - Save all open files
+- **Go to Line**: `workbench.action.gotoLine` - Go to specific line (Ctrl+G)
+- **Go to Symbol**: `workbench.action.gotoSymbol` - Navigate to symbol in file (Ctrl+Shift+O)
+- **New Window**: `workbench.action.newWindow` - Open new VS Code window
+- **Next Editor**: `workbench.action.nextEditor` - Go to next tab
+- **Keybindings**: `workbench.action.openGlobalKeybindings` - Edit keyboard shortcuts
+- **Recent Workspaces**: `workbench.action.openRecent` - Open recent workspaces
+- **Settings**: `workbench.action.openSettings` - Open settings
+- **Prev Editor**: `workbench.action.previousEditor` - Go to previous tab
+- **Quick Open**: `workbench.action.quickOpen` - Open file quickly (Ctrl+P)
+- **Reload Window**: `workbench.action.reloadWindow` - Reload VS Code
+- **Color Theme**: `workbench.action.selectTheme` - Change color theme
+- **Command Palette**: `workbench.action.showCommands` - Open command palette (Ctrl+Shift+P)
+- **Split Editor**: `workbench.action.splitEditor` - Split editor view
+- **Run Task**: `workbench.action.tasks.runTask` - Run configured task
+- **Clear Terminal**: `workbench.action.terminal.clear` - Clear terminal output
+- **Kill Terminal**: `workbench.action.terminal.kill` - Close active terminal
+- **New Terminal**: `workbench.action.terminal.new` - Create new terminal
+- **Split Terminal**: `workbench.action.terminal.split` - Split terminal pane
+- **Toggle Terminal**: `workbench.action.terminal.toggleTerminal` - Show/hide terminal
+- **Fullscreen**: `workbench.action.toggleFullScreen` - Toggle fullscreen
+- **Toggle Panel**: `workbench.action.togglePanel` - Show/hide bottom panel
+- **Toggle Sidebar**: `workbench.action.toggleSidebarVisibility` - Show/hide sidebar
+- **Zen Mode**: `workbench.action.toggleZenMode` - Toggle zen mode
+- **Zoom In**: `workbench.action.zoomIn` - Increase zoom level
+- **Zoom Out**: `workbench.action.zoomOut` - Decrease zoom level
+- **Reset Zoom**: `workbench.action.zoomReset` - Reset zoom to default
+- **Problems**: `workbench.actions.view.problems` - Show problems panel
+- **File Explorer**: `workbench.view.explorer` - Toggle file explorer
+- **Extensions**: `workbench.view.extensions` - Open extensions panel
+- **Source Control**: `workbench.view.scm` - Open source control
+- **Search**: `workbench.view.search` - Open search panel
