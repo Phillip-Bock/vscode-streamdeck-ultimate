@@ -1,0 +1,157 @@
+{
+  "page_custom": {
+    "name": "Your Custom Page",
+    "buttons": [
+      {
+        "position": [
+          0,
+          0
+        ],
+        "title": "Button 0-0",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          0,
+          1
+        ],
+        "title": "Button 0-1",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          0,
+          2
+        ],
+        "title": "Button 0-2",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          0,
+          3
+        ],
+        "title": "Button 0-3",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          0,
+          4
+        ],
+        "title": "Button 0-4",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          1,
+          0
+        ],
+        "title": "Button 1-0",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          1,
+          1
+        ],
+        "title": "Button 1-1",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          1,
+          2
+        ],
+        "title": "Button 1-2",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          1,
+          3
+        ],
+        "title": "Button 1-3",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          1,
+          4
+        ],
+        "title": "Button 1-4",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          2,
+          0
+        ],
+        "title": "Button 2-0",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          2,
+          1
+        ],
+        "title": "Button 2-1",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          2,
+          2
+        ],
+        "title": "Button 2-2",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          2,
+          3
+        ],
+        "title": "Button 2-3",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      },
+      {
+        "position": [
+          2,
+          4
+        ],
+        "title": "Button 2-4",
+        "command": "your.command.here",
+        "icon": "\ud83d\udca1",
+        "description": "Your description here"
+      }
+    ]
+  }
+}

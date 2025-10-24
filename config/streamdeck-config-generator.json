@@ -1,0 +1,664 @@
+{
+  "streamdeck_layouts": {
+    "page_1_navigation": {
+      "name": "Navigation & Files",
+      "buttons": [
+        {
+          "position": [0, 0],
+          "title": "Quick Open",
+          "command": "workbench.action.quickOpen",
+          "icon": "📁",
+          "description": "Open file quickly (Ctrl+P)"
+        },
+        {
+          "position": [0, 1],
+          "title": "Command Palette",
+          "command": "workbench.action.showCommands",
+          "icon": "⚡",
+          "description": "Open command palette (Ctrl+Shift+P)"
+        },
+        {
+          "position": [0, 2],
+          "title": "Go to Symbol",
+          "command": "workbench.action.gotoSymbol",
+          "icon": "🎯",
+          "description": "Navigate to symbol in file (Ctrl+Shift+O)"
+        },
+        {
+          "position": [0, 3],
+          "title": "Go to Line",
+          "command": "workbench.action.gotoLine",
+          "icon": "↓",
+          "description": "Go to specific line (Ctrl+G)"
+        },
+        {
+          "position": [0, 4],
+          "title": "File Explorer",
+          "command": "workbench.view.explorer",
+          "icon": "📂",
+          "description": "Toggle file explorer"
+        },
+        {
+          "position": [1, 0],
+          "title": "Search",
+          "command": "workbench.view.search",
+          "icon": "🔍",
+          "description": "Open search panel"
+        },
+        {
+          "position": [1, 1],
+          "title": "Source Control",
+          "command": "workbench.view.scm",
+          "icon": "🔀",
+          "description": "Open source control"
+        },
+        {
+          "position": [1, 2],
+          "title": "Extensions",
+          "command": "workbench.view.extensions",
+          "icon": "🧩",
+          "description": "Open extensions panel"
+        },
+        {
+          "position": [1, 3],
+          "title": "Close Editor",
+          "command": "workbench.action.closeActiveEditor",
+          "icon": "❌",
+          "description": "Close current file"
+        },
+        {
+          "position": [1, 4],
+          "title": "Close All",
+          "command": "workbench.action.closeAllEditors",
+          "icon": "🗑️",
+          "description": "Close all open files"
+        },
+        {
+          "position": [2, 0],
+          "title": "Split Editor",
+          "command": "workbench.action.splitEditor",
+          "icon": "⚡",
+          "description": "Split editor view"
+        },
+        {
+          "position": [2, 1],
+          "title": "Next Editor",
+          "command": "workbench.action.nextEditor",
+          "icon": "→",
+          "description": "Go to next tab"
+        },
+        {
+          "position": [2, 2],
+          "title": "Prev Editor",
+          "command": "workbench.action.previousEditor",
+          "icon": "←",
+          "description": "Go to previous tab"
+        },
+        {
+          "position": [2, 3],
+          "title": "New File",
+          "command": "workbench.action.files.newUntitledFile",
+          "icon": "📄",
+          "description": "Create new file"
+        },
+        {
+          "position": [2, 4],
+          "title": "Save All",
+          "command": "workbench.action.files.saveAll",
+          "icon": "💾",
+          "description": "Save all open files"
+        }
+      ]
+    },
+    "page_2_editing": {
+      "name": "Code Editing",
+      "buttons": [
+        {
+          "position": [0, 0],
+          "title": "Format Doc",
+          "command": "editor.action.formatDocument",
+          "icon": "✨",
+          "description": "Format entire document"
+        },
+        {
+          "position": [0, 1],
+          "title": "Format Select",
+          "command": "editor.action.formatSelection",
+          "icon": "📝",
+          "description": "Format selected code"
+        },
+        {
+          "position": [0, 2],
+          "title": "Comment Line",
+          "command": "editor.action.commentLine",
+          "icon": "💬",
+          "description": "Toggle line comment"
+        },
+        {
+          "position": [0, 3],
+          "title": "Block Comment",
+          "command": "editor.action.blockComment",
+          "icon": "📦",
+          "description": "Toggle block comment"
+        },
+        {
+          "position": [0, 4],
+          "title": "Rename Symbol",
+          "command": "editor.action.rename",
+          "icon": "🏷️",
+          "description": "Rename symbol (F2)"
+        },
+        {
+          "position": [1, 0],
+          "title": "Find",
+          "command": "actions.find",
+          "icon": "🔎",
+          "description": "Find in file"
+        },
+        {
+          "position": [1, 1],
+          "title": "Replace",
+          "command": "editor.action.startFindReplaceAction",
+          "icon": "🔄",
+          "description": "Find and replace"
+        },
+        {
+          "position": [1, 2],
+          "title": "Go to Definition",
+          "command": "editor.action.revealDefinition",
+          "icon": "🎯",
+          "description": "Jump to definition"
+        },
+        {
+          "position": [1, 3],
+          "title": "Peek Definition",
+          "command": "editor.action.peekDefinition",
+          "icon": "👁️",
+          "description": "Peek at definition"
+        },
+        {
+          "position": [1, 4],
+          "title": "Find References",
+          "command": "editor.action.goToReferences",
+          "icon": "🔗",
+          "description": "Find all references"
+        },
+        {
+          "position": [2, 0],
+          "title": "Move Line Up",
+          "command": "editor.action.moveLinesUpAction",
+          "icon": "⬆️",
+          "description": "Move line up"
+        },
+        {
+          "position": [2, 1],
+          "title": "Move Line Down",
+          "command": "editor.action.moveLinesDownAction",
+          "icon": "⬇️",
+          "description": "Move line down"
+        },
+        {
+          "position": [2, 2],
+          "title": "Copy Line Up",
+          "command": "editor.action.copyLinesUpAction",
+          "icon": "📋⬆️",
+          "description": "Duplicate line up"
+        },
+        {
+          "position": [2, 3],
+          "title": "Copy Line Down",
+          "command": "editor.action.copyLinesDownAction",
+          "icon": "📋⬇️",
+          "description": "Duplicate line down"
+        },
+        {
+          "position": [2, 4],
+          "title": "Delete Line",
+          "command": "editor.action.deleteLines",
+          "icon": "🗑️",
+          "description": "Delete current line"
+        }
+      ]
+    },
+    "page_3_terminal_debug": {
+      "name": "Terminal & Debug",
+      "buttons": [
+        {
+          "position": [0, 0],
+          "title": "New Terminal",
+          "command": "workbench.action.terminal.new",
+          "icon": "🖥️",
+          "description": "Create new terminal"
+        },
+        {
+          "position": [0, 1],
+          "title": "Toggle Terminal",
+          "command": "workbench.action.terminal.toggleTerminal",
+          "icon": "⚡",
+          "description": "Show/hide terminal"
+        },
+        {
+          "position": [0, 2],
+          "title": "Kill Terminal",
+          "command": "workbench.action.terminal.kill",
+          "icon": "❌",
+          "description": "Close active terminal"
+        },
+        {
+          "position": [0, 3],
+          "title": "Clear Terminal",
+          "command": "workbench.action.terminal.clear",
+          "icon": "🧹",
+          "description": "Clear terminal output"
+        },
+        {
+          "position": [0, 4],
+          "title": "Split Terminal",
+          "command": "workbench.action.terminal.split",
+          "icon": "⚡",
+          "description": "Split terminal pane"
+        },
+        {
+          "position": [1, 0],
+          "title": "Start Debug",
+          "command": "workbench.action.debug.start",
+          "icon": "▶️",
+          "description": "Start debugging"
+        },
+        {
+          "position": [1, 1],
+          "title": "Stop Debug",
+          "command": "workbench.action.debug.stop",
+          "icon": "⏹️",
+          "description": "Stop debugging"
+        },
+        {
+          "position": [1, 2],
+          "title": "Step Over",
+          "command": "workbench.action.debug.stepOver",
+          "icon": "⏭️",
+          "description": "Step over function"
+        },
+        {
+          "position": [1, 3],
+          "title": "Step Into",
+          "command": "workbench.action.debug.stepInto",
+          "icon": "⤵️",
+          "description": "Step into function"
+        },
+        {
+          "position": [1, 4],
+          "title": "Step Out",
+          "command": "workbench.action.debug.stepOut",
+          "icon": "⤴️",
+          "description": "Step out of function"
+        },
+        {
+          "position": [2, 0],
+          "title": "Toggle Breakpoint",
+          "command": "editor.debug.action.toggleBreakpoint",
+          "icon": "🔴",
+          "description": "Add/remove breakpoint"
+        },
+        {
+          "position": [2, 1],
+          "title": "Continue",
+          "command": "workbench.action.debug.continue",
+          "icon": "▶️",
+          "description": "Continue execution"
+        },
+        {
+          "position": [2, 2],
+          "title": "Restart Debug",
+          "command": "workbench.action.debug.restart",
+          "icon": "🔄",
+          "description": "Restart debugging"
+        },
+        {
+          "position": [2, 3],
+          "title": "Run Task",
+          "command": "workbench.action.tasks.runTask",
+          "icon": "🏃",
+          "description": "Run configured task"
+        },
+        {
+          "position": [2, 4],
+          "title": "Problems",
+          "command": "workbench.actions.view.problems",
+          "icon": "⚠️",
+          "description": "Show problems panel"
+        }
+      ]
+    },
+    "page_4_git": {
+      "name": "Git Operations",
+      "buttons": [
+        {
+          "position": [0, 0],
+          "title": "Git: Commit",
+          "command": "git.commit",
+          "icon": "✅",
+          "description": "Commit staged changes"
+        },
+        {
+          "position": [0, 1],
+          "title": "Git: Push",
+          "command": "git.push",
+          "icon": "⬆️",
+          "description": "Push to remote"
+        },
+        {
+          "position": [0, 2],
+          "title": "Git: Pull",
+          "command": "git.pull",
+          "icon": "⬇️",
+          "description": "Pull from remote"
+        },
+        {
+          "position": [0, 3],
+          "title": "Git: Sync",
+          "command": "git.sync",
+          "icon": "🔄",
+          "description": "Sync with remote"
+        },
+        {
+          "position": [0, 4],
+          "title": "Git: Fetch",
+          "command": "git.fetch",
+          "icon": "📥",
+          "description": "Fetch from remote"
+        },
+        {
+          "position": [1, 0],
+          "title": "Stage All",
+          "command": "git.stageAll",
+          "icon": "➕",
+          "description": "Stage all changes"
+        },
+        {
+          "position": [1, 1],
+          "title": "Unstage All",
+          "command": "git.unstageAll",
+          "icon": "➖",
+          "description": "Unstage all changes"
+        },
+        {
+          "position": [1, 2],
+          "title": "Show Changes",
+          "command": "git.openChange",
+          "icon": "👁️",
+          "description": "View file changes"
+        },
+        {
+          "position": [1, 3],
+          "title": "New Branch",
+          "command": "git.branch",
+          "icon": "🌿",
+          "description": "Create new branch"
+        },
+        {
+          "position": [1, 4],
+          "title": "Checkout",
+          "command": "git.checkout",
+          "icon": "🔀",
+          "description": "Switch branch"
+        },
+        {
+          "position": [2, 0],
+          "title": "View History",
+          "command": "git.viewHistory",
+          "icon": "📜",
+          "description": "View commit history"
+        },
+        {
+          "position": [2, 1],
+          "title": "Stash",
+          "command": "git.stash",
+          "icon": "📦",
+          "description": "Stash changes"
+        },
+        {
+          "position": [2, 2],
+          "title": "Pop Stash",
+          "command": "git.stashPop",
+          "icon": "📤",
+          "description": "Apply stashed changes"
+        },
+        {
+          "position": [2, 3],
+          "title": "Merge",
+          "command": "git.merge",
+          "icon": "🔗",
+          "description": "Merge branch"
+        },
+        {
+          "position": [2, 4],
+          "title": "Clone Repo",
+          "command": "git.clone",
+          "icon": "📋",
+          "description": "Clone repository"
+        }
+      ]
+    },
+    "page_5_workspace": {
+      "name": "Workspace & Views",
+      "buttons": [
+        {
+          "position": [0, 0],
+          "title": "Zen Mode",
+          "command": "workbench.action.toggleZenMode",
+          "icon": "🧘",
+          "description": "Toggle zen mode"
+        },
+        {
+          "position": [0, 1],
+          "title": "Fullscreen",
+          "command": "workbench.action.toggleFullScreen",
+          "icon": "🖥️",
+          "description": "Toggle fullscreen"
+        },
+        {
+          "position": [0, 2],
+          "title": "Toggle Sidebar",
+          "command": "workbench.action.toggleSidebarVisibility",
+          "icon": "📚",
+          "description": "Show/hide sidebar"
+        },
+        {
+          "position": [0, 3],
+          "title": "Toggle Panel",
+          "command": "workbench.action.togglePanel",
+          "icon": "📊",
+          "description": "Show/hide bottom panel"
+        },
+        {
+          "position": [0, 4],
+          "title": "Settings",
+          "command": "workbench.action.openSettings",
+          "icon": "⚙️",
+          "description": "Open settings"
+        },
+        {
+          "position": [1, 0],
+          "title": "Open Folder",
+          "command": "workbench.action.files.openFolder",
+          "icon": "📂",
+          "description": "Open folder/workspace"
+        },
+        {
+          "position": [1, 1],
+          "title": "Close Folder",
+          "command": "workbench.action.closeFolder",
+          "icon": "❌",
+          "description": "Close current workspace"
+        },
+        {
+          "position": [1, 2],
+          "title": "Recent Workspaces",
+          "command": "workbench.action.openRecent",
+          "icon": "🕐",
+          "description": "Open recent workspaces"
+        },
+        {
+          "position": [1, 3],
+          "title": "New Window",
+          "command": "workbench.action.newWindow",
+          "icon": "🪟",
+          "description": "Open new VS Code window"
+        },
+        {
+          "position": [1, 4],
+          "title": "Reload Window",
+          "command": "workbench.action.reloadWindow",
+          "icon": "🔄",
+          "description": "Reload VS Code"
+        },
+        {
+          "position": [2, 0],
+          "title": "Zoom In",
+          "command": "workbench.action.zoomIn",
+          "icon": "🔍+",
+          "description": "Increase zoom level"
+        },
+        {
+          "position": [2, 1],
+          "title": "Zoom Out",
+          "command": "workbench.action.zoomOut",
+          "icon": "🔍-",
+          "description": "Decrease zoom level"
+        },
+        {
+          "position": [2, 2],
+          "title": "Reset Zoom",
+          "command": "workbench.action.zoomReset",
+          "icon": "🔍",
+          "description": "Reset zoom to default"
+        },
+        {
+          "position": [2, 3],
+          "title": "Keybindings",
+          "command": "workbench.action.openGlobalKeybindings",
+          "icon": "⌨️",
+          "description": "Edit keyboard shortcuts"
+        },
+        {
+          "position": [2, 4],
+          "title": "Color Theme",
+          "command": "workbench.action.selectTheme",
+          "icon": "🎨",
+          "description": "Change color theme"
+        }
+      ]
+    },
+    "page_6_advanced": {
+      "name": "Advanced Features",
+      "buttons": [
+        {
+          "position": [0, 0],
+          "title": "Multi-Cursor",
+          "command": "editor.action.insertCursorAbove",
+          "icon": "⬆️|",
+          "description": "Add cursor above"
+        },
+        {
+          "position": [0, 1],
+          "title": "Select All Occurrences",
+          "command": "editor.action.selectHighlights",
+          "icon": "🔍✨",
+          "description": "Select all matching text"
+        },
+        {
+          "position": [0, 2],
+          "title": "Expand Selection",
+          "command": "editor.action.smartSelect.expand",
+          "icon": "↔️",
+          "description": "Smart expand selection"
+        },
+        {
+          "position": [0, 3],
+          "title": "Shrink Selection",
+          "command": "editor.action.smartSelect.shrink",
+          "icon": "↔️",
+          "description": "Smart shrink selection"
+        },
+        {
+          "position": [0, 4],
+          "title": "Transform to Upper",
+          "command": "editor.action.transformToUppercase",
+          "icon": "ABC",
+          "description": "Convert to uppercase"
+        },
+        {
+          "position": [1, 0],
+          "title": "Transform to Lower",
+          "command": "editor.action.transformToLowercase",
+          "icon": "abc",
+          "description": "Convert to lowercase"
+        },
+        {
+          "position": [1, 1],
+          "title": "Sort Lines Asc",
+          "command": "editor.action.sortLinesAscending",
+          "icon": "⬆️📝",
+          "description": "Sort lines A-Z"
+        },
+        {
+          "position": [1, 2],
+          "title": "Sort Lines Desc",
+          "command": "editor.action.sortLinesDescending",
+          "icon": "⬇️📝",
+          "description": "Sort lines Z-A"
+        },
+        {
+          "position": [1, 3],
+          "title": "Trim Trailing Space",
+          "command": "editor.action.trimTrailingWhitespace",
+          "icon": "🧹",
+          "description": "Remove trailing whitespace"
+        },
+        {
+          "position": [1, 4],
+          "title": "Join Lines",
+          "command": "editor.action.joinLines",
+          "icon": "⬅️➡️",
+          "description": "Join selected lines"
+        },
+        {
+          "position": [2, 0],
+          "title": "Fold All",
+          "command": "editor.foldAll",
+          "icon": "📁",
+          "description": "Collapse all code blocks"
+        },
+        {
+          "position": [2, 1],
+          "title": "Unfold All",
+          "command": "editor.unfoldAll",
+          "icon": "📂",
+          "description": "Expand all code blocks"
+        },
+        {
+          "position": [2, 2],
+          "title": "Toggle Fold",
+          "command": "editor.toggleFold",
+          "icon": "📄",
+          "description": "Toggle current fold"
+        },
+        {
+          "position": [2, 3],
+          "title": "Show Snippets",
+          "command": "editor.action.insertSnippet",
+          "icon": "✂️",
+          "description": "Insert snippet"
+        },
+        {
+          "position": [2, 4],
+          "title": "Emmet Expand",
+          "command": "editor.emmet.action.expandAbbreviation",
+          "icon": "⚡",
+          "description": "Expand Emmet abbreviation"
+        }
+      ]
+    }
+  }
+}
