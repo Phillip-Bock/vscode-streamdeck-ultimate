@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/Phillip-Bock/vscode-streamdeck-ultimate/blob/main/README.md
+    about: Check the README for setup instructions and troubleshooting
+  - name: 💬 Discussions
+    url: https://github.com/Phillip-Bock/vscode-streamdeck-ultimate/discussions
+    about: Ask questions and share your configurations with the community
+  - name: 🎛️ VS Code Extension Issues
+    url: https://github.com/nicollasricas/vscode-deck/issues
+    about: Report issues with the VS Code Stream Deck extension itself
+  - name: 📖 VS Code Documentation
+    url: https://code.visualstudio.com/docs
+    about: Official Visual Studio Code documentation
