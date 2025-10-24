@@ -1,0 +1,105 @@
+
+============================================================
+STREAM DECK CONFIGURATION: Code Editing
+============================================================
+
+HOW TO USE THIS CONFIGURATION:
+1. Open Stream Deck software
+2. Create a new page (or use existing)
+3. For each button below:
+   - Drag 'Visual Studio Code: Execute Command' to button position
+   - Set the title and command ID as specified
+   - Optionally customize the icon
+
+============================================================
+
+📍 Position: Row 1, Column 1
+   Title: Format Doc
+   Command ID: editor.action.formatDocument
+   Icon: ✨
+   Description: Format entire document
+   --------------------------------------------------------
+📍 Position: Row 1, Column 2
+   Title: Format Select
+   Command ID: editor.action.formatSelection
+   Icon: 📝
+   Description: Format selected code
+   --------------------------------------------------------
+📍 Position: Row 1, Column 3
+   Title: Comment Line
+   Command ID: editor.action.commentLine
+   Icon: 💬
+   Description: Toggle line comment
+   --------------------------------------------------------
+📍 Position: Row 1, Column 4
+   Title: Block Comment
+   Command ID: editor.action.blockComment
+   Icon: 📦
+   Description: Toggle block comment
+   --------------------------------------------------------
+📍 Position: Row 1, Column 5
+   Title: Rename Symbol
+   Command ID: editor.action.rename
+   Icon: 🏷️
+   Description: Rename symbol (F2)
+   --------------------------------------------------------
+📍 Position: Row 2, Column 1
+   Title: Find
+   Command ID: actions.find
+   Icon: 🔎
+   Description: Find in file
+   --------------------------------------------------------
+📍 Position: Row 2, Column 2
+   Title: Replace
+   Command ID: editor.action.startFindReplaceAction
+   Icon: 🔄
+   Description: Find and replace
+   --------------------------------------------------------
+📍 Position: Row 2, Column 3
+   Title: Go to Definition
+   Command ID: editor.action.revealDefinition
+   Icon: 🎯
+   Description: Jump to definition
+   --------------------------------------------------------
+📍 Position: Row 2, Column 4
+   Title: Peek Definition
+   Command ID: editor.action.peekDefinition
+   Icon: 👁️
+   Description: Peek at definition
+   --------------------------------------------------------
+📍 Position: Row 2, Column 5
+   Title: Find References
+   Command ID: editor.action.goToReferences
+   Icon: 🔗
+   Description: Find all references
+   --------------------------------------------------------
+📍 Position: Row 3, Column 1
+   Title: Move Line Up
+   Command ID: editor.action.moveLinesUpAction
+   Icon: ⬆️
+   Description: Move line up
+   --------------------------------------------------------
+📍 Position: Row 3, Column 2
+   Title: Move Line Down
+   Command ID: editor.action.moveLinesDownAction
+   Icon: ⬇️
+   Description: Move line down
+   --------------------------------------------------------
+📍 Position: Row 3, Column 3
+   Title: Copy Line Up
+   Command ID: editor.action.copyLinesUpAction
+   Icon: 📋⬆️
+   Description: Duplicate line up
+   --------------------------------------------------------
+📍 Position: Row 3, Column 4
+   Title: Copy Line Down
+   Command ID: editor.action.copyLinesDownAction
+   Icon: 📋⬇️
+   Description: Duplicate line down
+   --------------------------------------------------------
+📍 Position: Row 3, Column 5
+   Title: Delete Line
+   Command ID: editor.action.deleteLines
+   Icon: 🗑️
+   Description: Delete current line
+   --------------------------------------------------------

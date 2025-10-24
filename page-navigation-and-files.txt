@@ -1,0 +1,105 @@
+
+============================================================
+STREAM DECK CONFIGURATION: Navigation & Files
+============================================================
+
+HOW TO USE THIS CONFIGURATION:
+1. Open Stream Deck software
+2. Create a new page (or use existing)
+3. For each button below:
+   - Drag 'Visual Studio Code: Execute Command' to button position
+   - Set the title and command ID as specified
+   - Optionally customize the icon
+
+============================================================
+
+📍 Position: Row 1, Column 1
+   Title: Quick Open
+   Command ID: workbench.action.quickOpen
+   Icon: 📁
+   Description: Open file quickly (Ctrl+P)
+   --------------------------------------------------------
+📍 Position: Row 1, Column 2
+   Title: Command Palette
+   Command ID: workbench.action.showCommands
+   Icon: ⚡
+   Description: Open command palette (Ctrl+Shift+P)
+   --------------------------------------------------------
+📍 Position: Row 1, Column 3
+   Title: Go to Symbol
+   Command ID: workbench.action.gotoSymbol
+   Icon: 🎯
+   Description: Navigate to symbol in file (Ctrl+Shift+O)
+   --------------------------------------------------------
+📍 Position: Row 1, Column 4
+   Title: Go to Line
+   Command ID: workbench.action.gotoLine
+   Icon: ↓
+   Description: Go to specific line (Ctrl+G)
+   --------------------------------------------------------
+📍 Position: Row 1, Column 5
+   Title: File Explorer
+   Command ID: workbench.view.explorer
+   Icon: 📂
+   Description: Toggle file explorer
+   --------------------------------------------------------
+📍 Position: Row 2, Column 1
+   Title: Search
+   Command ID: workbench.view.search
+   Icon: 🔍
+   Description: Open search panel
+   --------------------------------------------------------
+📍 Position: Row 2, Column 2
+   Title: Source Control
+   Command ID: workbench.view.scm
+   Icon: 🔀
+   Description: Open source control
+   --------------------------------------------------------
+📍 Position: Row 2, Column 3
+   Title: Extensions
+   Command ID: workbench.view.extensions
+   Icon: 🧩
+   Description: Open extensions panel
+   --------------------------------------------------------
+📍 Position: Row 2, Column 4
+   Title: Close Editor
+   Command ID: workbench.action.closeActiveEditor
+   Icon: ❌
+   Description: Close current file
+   --------------------------------------------------------
+📍 Position: Row 2, Column 5
+   Title: Close All
+   Command ID: workbench.action.closeAllEditors
+   Icon: 🗑️
+   Description: Close all open files
+   --------------------------------------------------------
+📍 Position: Row 3, Column 1
+   Title: Split Editor
+   Command ID: workbench.action.splitEditor
+   Icon: ⚡
+   Description: Split editor view
+   --------------------------------------------------------
+📍 Position: Row 3, Column 2
+   Title: Next Editor
+   Command ID: workbench.action.nextEditor
+   Icon: →
+   Description: Go to next tab
+   --------------------------------------------------------
+📍 Position: Row 3, Column 3
+   Title: Prev Editor
+   Command ID: workbench.action.previousEditor
+   Icon: ←
+   Description: Go to previous tab
+   --------------------------------------------------------
+📍 Position: Row 3, Column 4
+   Title: New File
+   Command ID: workbench.action.files.newUntitledFile
+   Icon: 📄
+   Description: Create new file
+   --------------------------------------------------------
+📍 Position: Row 3, Column 5
+   Title: Save All
+   Command ID: workbench.action.files.saveAll
+   Icon: 💾
+   Description: Save all open files
+   --------------------------------------------------------

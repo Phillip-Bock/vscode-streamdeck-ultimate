@@ -1,0 +1,233 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                   STREAM DECK VS CODE - FILE GUIDE                         ║
+║                    Which File Should I Use?                                ║
+╔════════════════════════════════════════════════════════════════════════════╗
+
+📁 YOUR FILES AND WHEN TO USE THEM:
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ 🚀 QUICK START - BEGIN HERE                                            │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  📄 README.md                                                            │
+│     └─ Start here! Overview of everything                               │
+│     └─ When: First time setup                                           │
+│                                                                           │
+│  📄 streamdeck-setup-step-by-step.txt                                   │
+│     └─ Page-by-page configuration instructions                          │
+│     └─ When: Setting up your Stream Deck (RECOMMENDED)                  │
+│                                                                           │
+│  🌐 streamdeck-cheatsheet.html                                          │
+│     └─ Beautiful visual reference (open in browser!)                    │
+│     └─ When: Need visual layout, want to print reference                │
+│     └─ Pro tip: Bookmark this in your browser!                          │
+│                                                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ 📖 REFERENCE GUIDES - Keep These Handy                                 │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  📄 streamdeck-profile-guide.txt                                        │
+│     └─ Complete overview with visual grid of all buttons                │
+│     └─ When: Want to see all pages at once                              │
+│                                                                           │
+│  📄 streamdeck-reference-guide.md                                       │
+│     └─ Organized tables by page                                         │
+│     └─ When: Looking up specific commands by category                   │
+│                                                                           │
+│  📄 streamdeck-commands-list.md                                         │
+│     └─ Alphabetical list of all commands                                │
+│     └─ When: Searching for a specific command                           │
+│                                                                           │
+│  📄 streamdeck-visual-layout.md                                         │
+│     └─ ASCII art layout of each page                                    │
+│     └─ When: Planning your button layout                                │
+│                                                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ 📋 INDIVIDUAL PAGE CONFIGS - One Page at a Time                        │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  📄 page-navigation-and-files.txt                                       │
+│     └─ Page 1: File navigation, quick open, explorer                    │
+│                                                                           │
+│  📄 page-code-editing.txt                                               │
+│     └─ Page 2: Formatting, comments, find/replace                       │
+│                                                                           │
+│  📄 page-terminal-and-debug.txt                                         │
+│     └─ Page 3: Terminal control, debugging                              │
+│                                                                           │
+│  📄 page-git-operations.txt                                             │
+│     └─ Page 4: Commit, push, pull, branches                             │
+│                                                                           │
+│  📄 page-workspace-and-views.txt                                        │
+│     └─ Page 5: Zen mode, zoom, themes, settings                         │
+│                                                                           │
+│  📄 page-advanced-features.txt                                          │
+│     └─ Page 6: Multi-cursor, transforms, folding                        │
+│                                                                           │
+│  When to use: Configuring one specific page                             │
+│                                                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│ 🔧 ADVANCED & CUSTOMIZATION                                            │
+├─────────────────────────────────────────────────────────────────────────┤
+│                                                                           │
+│  📄 streamdeck-config-generator.json                                    │
+│     └─ Master configuration file (JSON format)                          │
+│     └─ When: Want to modify commands or create new pages                │
+│                                                                           │
+│  📄 streamdeck-custom-template.json                                     │
+│     └─ Template for creating your own custom page                       │
+│     └─ When: Adding personalized buttons                                │
+│                                                                           │
+│  📄 streamdeck-import.csv                                               │
+│     └─ CSV format for importing (if your tools support it)              │
+│     └─ When: Bulk importing into compatible software                    │
+│                                                                           │
+│  🐍 generate_streamdeck_config.py                                       │
+│     └─ Python script to regenerate all documentation                    │
+│     └─ When: You've modified the JSON and need new docs                 │
+│     └─ Run: python3 generate_streamdeck_config.py                       │
+│                                                                           │
+│  🐍 quick_configurator.py                                               │
+│     └─ Python utility for advanced configuration                        │
+│     └─ When: Creating custom exports or utilities                       │
+│     └─ Run: python3 quick_configurator.py                               │
+│                                                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                        RECOMMENDED WORKFLOW                                ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+  STEP 1: Read the Overview
+  ↓
+  📄 README.md
+  ↓
+  
+  STEP 2: Install VS Code Extension
+  ↓
+  In VS Code: Ctrl+P → ext install nicollasr.vscode-streamdeck
+  ↓
+  
+  STEP 3: Open Your Primary Setup Guide
+  ↓
+  📄 streamdeck-setup-step-by-step.txt
+  ↓
+  
+  STEP 4: Open Visual Reference
+  ↓
+  🌐 streamdeck-cheatsheet.html (in browser)
+  ↓
+  
+  STEP 5: Configure Each Page
+  ↓
+  Use individual page-*.txt files as reference
+  ↓
+  
+  STEP 6: Test & Adjust
+  ↓
+  Test each button, make adjustments
+  ↓
+  
+  STEP 7: Print Reference (Optional)
+  ↓
+  Print streamdeck-cheatsheet.html for desk reference
+  ↓
+  
+  ✅ DONE! You're a VS Code power user now!
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                          QUICK TIPS                                        ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+  💡 TIP 1: Start with Page 1 (Navigation)
+     └─ These are the most essential commands
+
+  💡 TIP 2: Print the HTML cheat sheet
+     └─ Keep it next to your Stream Deck
+
+  💡 TIP 3: Test as you go
+     └─ Configure a few buttons, test them, then continue
+
+  💡 TIP 4: Customize gradually
+     └─ Start with the defaults, then modify what you need
+
+  💡 TIP 5: Use page navigation
+     └─ Add buttons on each page to switch between pages
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                      FILE FORMAT SUMMARY                                   ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+  📄 .txt files  → Plain text, easy to read, copy/paste commands
+  📄 .md files   → Markdown format, nice formatting, good for viewing
+  🌐 .html file  → Web page, interactive, printable, beautiful
+  📄 .json files → Configuration data, for modification/import
+  📄 .csv file   → Spreadsheet format, for importing to other tools
+  🐍 .py files   → Python scripts, for regenerating or customization
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    WHICH FILE FOR WHICH TASK?                              ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+  📌 TASK: Setting up Stream Deck for first time
+     → streamdeck-setup-step-by-step.txt + streamdeck-cheatsheet.html
+
+  📌 TASK: Quick reference while working
+     → streamdeck-cheatsheet.html (bookmark it!)
+
+  📌 TASK: Finding a specific command
+     → streamdeck-commands-list.md or streamdeck-reference-guide.md
+
+  📌 TASK: Configuring just one page
+     → page-[specific-page].txt
+
+  📌 TASK: Understanding the layout
+     → streamdeck-visual-layout.md
+
+  📌 TASK: Printing a reference
+     → streamdeck-cheatsheet.html (print from browser)
+
+  📌 TASK: Creating custom commands
+     → streamdeck-custom-template.json + generate_streamdeck_config.py
+
+  📌 TASK: Getting started (no idea where to begin!)
+     → README.md (you are here! ✅)
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║                    QUESTIONS & TROUBLESHOOTING                             ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+  Q: Which file should I start with?
+  A: README.md first, then streamdeck-setup-step-by-step.txt
+
+  Q: Can I print something to keep on my desk?
+  A: Yes! Open streamdeck-cheatsheet.html and print it
+
+  Q: How do I find command IDs for custom buttons?
+  A: VS Code → File → Preferences → Keyboard Shortcuts → Right-click command
+
+  Q: Do I need all these files?
+  A: No! Start with README.md, step-by-step.txt, and cheatsheet.html
+
+  Q: Which file shows me ALL commands at once?
+  A: streamdeck-profile-guide.txt or streamdeck-cheatsheet.html
+
+  Q: How do I modify the configuration?
+  A: Edit streamdeck-config-generator.json, then run generate_streamdeck_config.py
+
+╔════════════════════════════════════════════════════════════════════════════╗
+║               🎉 YOU HAVE EVERYTHING YOU NEED! 🎉                         ║
+║                                                                            ║
+║  Start with README.md and streamdeck-setup-step-by-step.txt               ║
+║  Open streamdeck-cheatsheet.html in your browser                          ║
+║  Configure your Stream Deck page by page                                  ║
+║  Keep the cheat sheet handy for reference                                 ║
+║                                                                            ║
+║                    Happy coding! 🚀                                       ║
+╚════════════════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,105 @@
+
+============================================================
+STREAM DECK CONFIGURATION: Terminal & Debug
+============================================================
+
+HOW TO USE THIS CONFIGURATION:
+1. Open Stream Deck software
+2. Create a new page (or use existing)
+3. For each button below:
+   - Drag 'Visual Studio Code: Execute Command' to button position
+   - Set the title and command ID as specified
+   - Optionally customize the icon
+
+============================================================
+
+📍 Position: Row 1, Column 1
+   Title: New Terminal
+   Command ID: workbench.action.terminal.new
+   Icon: 🖥️
+   Description: Create new terminal
+   --------------------------------------------------------
+📍 Position: Row 1, Column 2
+   Title: Toggle Terminal
+   Command ID: workbench.action.terminal.toggleTerminal
+   Icon: ⚡
+   Description: Show/hide terminal
+   --------------------------------------------------------
+📍 Position: Row 1, Column 3
+   Title: Kill Terminal
+   Command ID: workbench.action.terminal.kill
+   Icon: ❌
+   Description: Close active terminal
+   --------------------------------------------------------
+📍 Position: Row 1, Column 4
+   Title: Clear Terminal
+   Command ID: workbench.action.terminal.clear
+   Icon: 🧹
+   Description: Clear terminal output
+   --------------------------------------------------------
+📍 Position: Row 1, Column 5
+   Title: Split Terminal
+   Command ID: workbench.action.terminal.split
+   Icon: ⚡
+   Description: Split terminal pane
+   --------------------------------------------------------
+📍 Position: Row 2, Column 1
+   Title: Start Debug
+   Command ID: workbench.action.debug.start
+   Icon: ▶️
+   Description: Start debugging
+   --------------------------------------------------------
+📍 Position: Row 2, Column 2
+   Title: Stop Debug
+   Command ID: workbench.action.debug.stop
+   Icon: ⏹️
+   Description: Stop debugging
+   --------------------------------------------------------
+📍 Position: Row 2, Column 3
+   Title: Step Over
+   Command ID: workbench.action.debug.stepOver
+   Icon: ⏭️
+   Description: Step over function
+   --------------------------------------------------------
+📍 Position: Row 2, Column 4
+   Title: Step Into
+   Command ID: workbench.action.debug.stepInto
+   Icon: ⤵️
+   Description: Step into function
+   --------------------------------------------------------
+📍 Position: Row 2, Column 5
+   Title: Step Out
+   Command ID: workbench.action.debug.stepOut
+   Icon: ⤴️
+   Description: Step out of function
+   --------------------------------------------------------
+📍 Position: Row 3, Column 1
+   Title: Toggle Breakpoint
+   Command ID: editor.debug.action.toggleBreakpoint
+   Icon: 🔴
+   Description: Add/remove breakpoint
+   --------------------------------------------------------
+📍 Position: Row 3, Column 2
+   Title: Continue
+   Command ID: workbench.action.debug.continue
+   Icon: ▶️
+   Description: Continue execution
+   --------------------------------------------------------
+📍 Position: Row 3, Column 3
+   Title: Restart Debug
+   Command ID: workbench.action.debug.restart
+   Icon: 🔄
+   Description: Restart debugging
+   --------------------------------------------------------
+📍 Position: Row 3, Column 4
+   Title: Run Task
+   Command ID: workbench.action.tasks.runTask
+   Icon: 🏃
+   Description: Run configured task
+   --------------------------------------------------------
+📍 Position: Row 3, Column 5
+   Title: Problems
+   Command ID: workbench.actions.view.problems
+   Icon: ⚠️
+   Description: Show problems panel
+   --------------------------------------------------------

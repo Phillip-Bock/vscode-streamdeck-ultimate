@@ -1,0 +1,695 @@
+
+######################################################################
+# STEP 1: Setting up 'Navigation & Files' Page
+######################################################################
+
+1. In Stream Deck software, create a new page or select existing
+2. Name the page: 'Navigation & Files'
+3. Configure each button as follows:
+
+   Button at Row 1, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Quick Open
+   ├─ Command (ID): workbench.action.quickOpen
+   ├─ Suggested Icon: 📁
+   └─ Purpose: Open file quickly (Ctrl+P)
+
+   Button at Row 1, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Command Palette
+   ├─ Command (ID): workbench.action.showCommands
+   ├─ Suggested Icon: ⚡
+   └─ Purpose: Open command palette (Ctrl+Shift+P)
+
+   Button at Row 1, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Go to Symbol
+   ├─ Command (ID): workbench.action.gotoSymbol
+   ├─ Suggested Icon: 🎯
+   └─ Purpose: Navigate to symbol in file (Ctrl+Shift+O)
+
+   Button at Row 1, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Go to Line
+   ├─ Command (ID): workbench.action.gotoLine
+   ├─ Suggested Icon: ↓
+   └─ Purpose: Go to specific line (Ctrl+G)
+
+   Button at Row 1, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: File Explorer
+   ├─ Command (ID): workbench.view.explorer
+   ├─ Suggested Icon: 📂
+   └─ Purpose: Toggle file explorer
+
+   Button at Row 2, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Search
+   ├─ Command (ID): workbench.view.search
+   ├─ Suggested Icon: 🔍
+   └─ Purpose: Open search panel
+
+   Button at Row 2, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Source Control
+   ├─ Command (ID): workbench.view.scm
+   ├─ Suggested Icon: 🔀
+   └─ Purpose: Open source control
+
+   Button at Row 2, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Extensions
+   ├─ Command (ID): workbench.view.extensions
+   ├─ Suggested Icon: 🧩
+   └─ Purpose: Open extensions panel
+
+   Button at Row 2, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Close Editor
+   ├─ Command (ID): workbench.action.closeActiveEditor
+   ├─ Suggested Icon: ❌
+   └─ Purpose: Close current file
+
+   Button at Row 2, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Close All
+   ├─ Command (ID): workbench.action.closeAllEditors
+   ├─ Suggested Icon: 🗑️
+   └─ Purpose: Close all open files
+
+   Button at Row 3, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Split Editor
+   ├─ Command (ID): workbench.action.splitEditor
+   ├─ Suggested Icon: ⚡
+   └─ Purpose: Split editor view
+
+   Button at Row 3, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Next Editor
+   ├─ Command (ID): workbench.action.nextEditor
+   ├─ Suggested Icon: →
+   └─ Purpose: Go to next tab
+
+   Button at Row 3, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Prev Editor
+   ├─ Command (ID): workbench.action.previousEditor
+   ├─ Suggested Icon: ←
+   └─ Purpose: Go to previous tab
+
+   Button at Row 3, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: New File
+   ├─ Command (ID): workbench.action.files.newUntitledFile
+   ├─ Suggested Icon: 📄
+   └─ Purpose: Create new file
+
+   Button at Row 3, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Save All
+   ├─ Command (ID): workbench.action.files.saveAll
+   ├─ Suggested Icon: 💾
+   └─ Purpose: Save all open files
+
+✅ Page 1 Complete! Test each button to ensure it works.
+
+
+######################################################################
+# STEP 2: Setting up 'Code Editing' Page
+######################################################################
+
+1. In Stream Deck software, create a new page or select existing
+2. Name the page: 'Code Editing'
+3. Configure each button as follows:
+
+   Button at Row 1, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Format Doc
+   ├─ Command (ID): editor.action.formatDocument
+   ├─ Suggested Icon: ✨
+   └─ Purpose: Format entire document
+
+   Button at Row 1, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Format Select
+   ├─ Command (ID): editor.action.formatSelection
+   ├─ Suggested Icon: 📝
+   └─ Purpose: Format selected code
+
+   Button at Row 1, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Comment Line
+   ├─ Command (ID): editor.action.commentLine
+   ├─ Suggested Icon: 💬
+   └─ Purpose: Toggle line comment
+
+   Button at Row 1, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Block Comment
+   ├─ Command (ID): editor.action.blockComment
+   ├─ Suggested Icon: 📦
+   └─ Purpose: Toggle block comment
+
+   Button at Row 1, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Rename Symbol
+   ├─ Command (ID): editor.action.rename
+   ├─ Suggested Icon: 🏷️
+   └─ Purpose: Rename symbol (F2)
+
+   Button at Row 2, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Find
+   ├─ Command (ID): actions.find
+   ├─ Suggested Icon: 🔎
+   └─ Purpose: Find in file
+
+   Button at Row 2, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Replace
+   ├─ Command (ID): editor.action.startFindReplaceAction
+   ├─ Suggested Icon: 🔄
+   └─ Purpose: Find and replace
+
+   Button at Row 2, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Go to Definition
+   ├─ Command (ID): editor.action.revealDefinition
+   ├─ Suggested Icon: 🎯
+   └─ Purpose: Jump to definition
+
+   Button at Row 2, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Peek Definition
+   ├─ Command (ID): editor.action.peekDefinition
+   ├─ Suggested Icon: 👁️
+   └─ Purpose: Peek at definition
+
+   Button at Row 2, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Find References
+   ├─ Command (ID): editor.action.goToReferences
+   ├─ Suggested Icon: 🔗
+   └─ Purpose: Find all references
+
+   Button at Row 3, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Move Line Up
+   ├─ Command (ID): editor.action.moveLinesUpAction
+   ├─ Suggested Icon: ⬆️
+   └─ Purpose: Move line up
+
+   Button at Row 3, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Move Line Down
+   ├─ Command (ID): editor.action.moveLinesDownAction
+   ├─ Suggested Icon: ⬇️
+   └─ Purpose: Move line down
+
+   Button at Row 3, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Copy Line Up
+   ├─ Command (ID): editor.action.copyLinesUpAction
+   ├─ Suggested Icon: 📋⬆️
+   └─ Purpose: Duplicate line up
+
+   Button at Row 3, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Copy Line Down
+   ├─ Command (ID): editor.action.copyLinesDownAction
+   ├─ Suggested Icon: 📋⬇️
+   └─ Purpose: Duplicate line down
+
+   Button at Row 3, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Delete Line
+   ├─ Command (ID): editor.action.deleteLines
+   ├─ Suggested Icon: 🗑️
+   └─ Purpose: Delete current line
+
+✅ Page 2 Complete! Test each button to ensure it works.
+
+
+######################################################################
+# STEP 3: Setting up 'Terminal & Debug' Page
+######################################################################
+
+1. In Stream Deck software, create a new page or select existing
+2. Name the page: 'Terminal & Debug'
+3. Configure each button as follows:
+
+   Button at Row 1, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: New Terminal
+   ├─ Command (ID): workbench.action.terminal.new
+   ├─ Suggested Icon: 🖥️
+   └─ Purpose: Create new terminal
+
+   Button at Row 1, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Toggle Terminal
+   ├─ Command (ID): workbench.action.terminal.toggleTerminal
+   ├─ Suggested Icon: ⚡
+   └─ Purpose: Show/hide terminal
+
+   Button at Row 1, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Kill Terminal
+   ├─ Command (ID): workbench.action.terminal.kill
+   ├─ Suggested Icon: ❌
+   └─ Purpose: Close active terminal
+
+   Button at Row 1, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Clear Terminal
+   ├─ Command (ID): workbench.action.terminal.clear
+   ├─ Suggested Icon: 🧹
+   └─ Purpose: Clear terminal output
+
+   Button at Row 1, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Split Terminal
+   ├─ Command (ID): workbench.action.terminal.split
+   ├─ Suggested Icon: ⚡
+   └─ Purpose: Split terminal pane
+
+   Button at Row 2, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Start Debug
+   ├─ Command (ID): workbench.action.debug.start
+   ├─ Suggested Icon: ▶️
+   └─ Purpose: Start debugging
+
+   Button at Row 2, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Stop Debug
+   ├─ Command (ID): workbench.action.debug.stop
+   ├─ Suggested Icon: ⏹️
+   └─ Purpose: Stop debugging
+
+   Button at Row 2, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Step Over
+   ├─ Command (ID): workbench.action.debug.stepOver
+   ├─ Suggested Icon: ⏭️
+   └─ Purpose: Step over function
+
+   Button at Row 2, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Step Into
+   ├─ Command (ID): workbench.action.debug.stepInto
+   ├─ Suggested Icon: ⤵️
+   └─ Purpose: Step into function
+
+   Button at Row 2, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Step Out
+   ├─ Command (ID): workbench.action.debug.stepOut
+   ├─ Suggested Icon: ⤴️
+   └─ Purpose: Step out of function
+
+   Button at Row 3, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Toggle Breakpoint
+   ├─ Command (ID): editor.debug.action.toggleBreakpoint
+   ├─ Suggested Icon: 🔴
+   └─ Purpose: Add/remove breakpoint
+
+   Button at Row 3, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Continue
+   ├─ Command (ID): workbench.action.debug.continue
+   ├─ Suggested Icon: ▶️
+   └─ Purpose: Continue execution
+
+   Button at Row 3, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Restart Debug
+   ├─ Command (ID): workbench.action.debug.restart
+   ├─ Suggested Icon: 🔄
+   └─ Purpose: Restart debugging
+
+   Button at Row 3, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Run Task
+   ├─ Command (ID): workbench.action.tasks.runTask
+   ├─ Suggested Icon: 🏃
+   └─ Purpose: Run configured task
+
+   Button at Row 3, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Problems
+   ├─ Command (ID): workbench.actions.view.problems
+   ├─ Suggested Icon: ⚠️
+   └─ Purpose: Show problems panel
+
+✅ Page 3 Complete! Test each button to ensure it works.
+
+
+######################################################################
+# STEP 4: Setting up 'Git Operations' Page
+######################################################################
+
+1. In Stream Deck software, create a new page or select existing
+2. Name the page: 'Git Operations'
+3. Configure each button as follows:
+
+   Button at Row 1, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Git: Commit
+   ├─ Command (ID): git.commit
+   ├─ Suggested Icon: ✅
+   └─ Purpose: Commit staged changes
+
+   Button at Row 1, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Git: Push
+   ├─ Command (ID): git.push
+   ├─ Suggested Icon: ⬆️
+   └─ Purpose: Push to remote
+
+   Button at Row 1, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Git: Pull
+   ├─ Command (ID): git.pull
+   ├─ Suggested Icon: ⬇️
+   └─ Purpose: Pull from remote
+
+   Button at Row 1, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Git: Sync
+   ├─ Command (ID): git.sync
+   ├─ Suggested Icon: 🔄
+   └─ Purpose: Sync with remote
+
+   Button at Row 1, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Git: Fetch
+   ├─ Command (ID): git.fetch
+   ├─ Suggested Icon: 📥
+   └─ Purpose: Fetch from remote
+
+   Button at Row 2, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Stage All
+   ├─ Command (ID): git.stageAll
+   ├─ Suggested Icon: ➕
+   └─ Purpose: Stage all changes
+
+   Button at Row 2, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Unstage All
+   ├─ Command (ID): git.unstageAll
+   ├─ Suggested Icon: ➖
+   └─ Purpose: Unstage all changes
+
+   Button at Row 2, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Show Changes
+   ├─ Command (ID): git.openChange
+   ├─ Suggested Icon: 👁️
+   └─ Purpose: View file changes
+
+   Button at Row 2, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: New Branch
+   ├─ Command (ID): git.branch
+   ├─ Suggested Icon: 🌿
+   └─ Purpose: Create new branch
+
+   Button at Row 2, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Checkout
+   ├─ Command (ID): git.checkout
+   ├─ Suggested Icon: 🔀
+   └─ Purpose: Switch branch
+
+   Button at Row 3, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: View History
+   ├─ Command (ID): git.viewHistory
+   ├─ Suggested Icon: 📜
+   └─ Purpose: View commit history
+
+   Button at Row 3, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Stash
+   ├─ Command (ID): git.stash
+   ├─ Suggested Icon: 📦
+   └─ Purpose: Stash changes
+
+   Button at Row 3, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Pop Stash
+   ├─ Command (ID): git.stashPop
+   ├─ Suggested Icon: 📤
+   └─ Purpose: Apply stashed changes
+
+   Button at Row 3, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Merge
+   ├─ Command (ID): git.merge
+   ├─ Suggested Icon: 🔗
+   └─ Purpose: Merge branch
+
+   Button at Row 3, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Clone Repo
+   ├─ Command (ID): git.clone
+   ├─ Suggested Icon: 📋
+   └─ Purpose: Clone repository
+
+✅ Page 4 Complete! Test each button to ensure it works.
+
+
+######################################################################
+# STEP 5: Setting up 'Workspace & Views' Page
+######################################################################
+
+1. In Stream Deck software, create a new page or select existing
+2. Name the page: 'Workspace & Views'
+3. Configure each button as follows:
+
+   Button at Row 1, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Zen Mode
+   ├─ Command (ID): workbench.action.toggleZenMode
+   ├─ Suggested Icon: 🧘
+   └─ Purpose: Toggle zen mode
+
+   Button at Row 1, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Fullscreen
+   ├─ Command (ID): workbench.action.toggleFullScreen
+   ├─ Suggested Icon: 🖥️
+   └─ Purpose: Toggle fullscreen
+
+   Button at Row 1, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Toggle Sidebar
+   ├─ Command (ID): workbench.action.toggleSidebarVisibility
+   ├─ Suggested Icon: 📚
+   └─ Purpose: Show/hide sidebar
+
+   Button at Row 1, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Toggle Panel
+   ├─ Command (ID): workbench.action.togglePanel
+   ├─ Suggested Icon: 📊
+   └─ Purpose: Show/hide bottom panel
+
+   Button at Row 1, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Settings
+   ├─ Command (ID): workbench.action.openSettings
+   ├─ Suggested Icon: ⚙️
+   └─ Purpose: Open settings
+
+   Button at Row 2, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Open Folder
+   ├─ Command (ID): workbench.action.files.openFolder
+   ├─ Suggested Icon: 📂
+   └─ Purpose: Open folder/workspace
+
+   Button at Row 2, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Close Folder
+   ├─ Command (ID): workbench.action.closeFolder
+   ├─ Suggested Icon: ❌
+   └─ Purpose: Close current workspace
+
+   Button at Row 2, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Recent Workspaces
+   ├─ Command (ID): workbench.action.openRecent
+   ├─ Suggested Icon: 🕐
+   └─ Purpose: Open recent workspaces
+
+   Button at Row 2, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: New Window
+   ├─ Command (ID): workbench.action.newWindow
+   ├─ Suggested Icon: 🪟
+   └─ Purpose: Open new VS Code window
+
+   Button at Row 2, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Reload Window
+   ├─ Command (ID): workbench.action.reloadWindow
+   ├─ Suggested Icon: 🔄
+   └─ Purpose: Reload VS Code
+
+   Button at Row 3, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Zoom In
+   ├─ Command (ID): workbench.action.zoomIn
+   ├─ Suggested Icon: 🔍+
+   └─ Purpose: Increase zoom level
+
+   Button at Row 3, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Zoom Out
+   ├─ Command (ID): workbench.action.zoomOut
+   ├─ Suggested Icon: 🔍-
+   └─ Purpose: Decrease zoom level
+
+   Button at Row 3, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Reset Zoom
+   ├─ Command (ID): workbench.action.zoomReset
+   ├─ Suggested Icon: 🔍
+   └─ Purpose: Reset zoom to default
+
+   Button at Row 3, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Keybindings
+   ├─ Command (ID): workbench.action.openGlobalKeybindings
+   ├─ Suggested Icon: ⌨️
+   └─ Purpose: Edit keyboard shortcuts
+
+   Button at Row 3, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Color Theme
+   ├─ Command (ID): workbench.action.selectTheme
+   ├─ Suggested Icon: 🎨
+   └─ Purpose: Change color theme
+
+✅ Page 5 Complete! Test each button to ensure it works.
+
+
+######################################################################
+# STEP 6: Setting up 'Advanced Features' Page
+######################################################################
+
+1. In Stream Deck software, create a new page or select existing
+2. Name the page: 'Advanced Features'
+3. Configure each button as follows:
+
+   Button at Row 1, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Multi-Cursor
+   ├─ Command (ID): editor.action.insertCursorAbove
+   ├─ Suggested Icon: ⬆️|
+   └─ Purpose: Add cursor above
+
+   Button at Row 1, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Select All Occurrences
+   ├─ Command (ID): editor.action.selectHighlights
+   ├─ Suggested Icon: 🔍✨
+   └─ Purpose: Select all matching text
+
+   Button at Row 1, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Expand Selection
+   ├─ Command (ID): editor.action.smartSelect.expand
+   ├─ Suggested Icon: ↔️
+   └─ Purpose: Smart expand selection
+
+   Button at Row 1, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Shrink Selection
+   ├─ Command (ID): editor.action.smartSelect.shrink
+   ├─ Suggested Icon: ↔️
+   └─ Purpose: Smart shrink selection
+
+   Button at Row 1, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Transform to Upper
+   ├─ Command (ID): editor.action.transformToUppercase
+   ├─ Suggested Icon: ABC
+   └─ Purpose: Convert to uppercase
+
+   Button at Row 2, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Transform to Lower
+   ├─ Command (ID): editor.action.transformToLowercase
+   ├─ Suggested Icon: abc
+   └─ Purpose: Convert to lowercase
+
+   Button at Row 2, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Sort Lines Asc
+   ├─ Command (ID): editor.action.sortLinesAscending
+   ├─ Suggested Icon: ⬆️📝
+   └─ Purpose: Sort lines A-Z
+
+   Button at Row 2, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Sort Lines Desc
+   ├─ Command (ID): editor.action.sortLinesDescending
+   ├─ Suggested Icon: ⬇️📝
+   └─ Purpose: Sort lines Z-A
+
+   Button at Row 2, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Trim Trailing Space
+   ├─ Command (ID): editor.action.trimTrailingWhitespace
+   ├─ Suggested Icon: 🧹
+   └─ Purpose: Remove trailing whitespace
+
+   Button at Row 2, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Join Lines
+   ├─ Command (ID): editor.action.joinLines
+   ├─ Suggested Icon: ⬅️➡️
+   └─ Purpose: Join selected lines
+
+   Button at Row 3, Col 1:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Fold All
+   ├─ Command (ID): editor.foldAll
+   ├─ Suggested Icon: 📁
+   └─ Purpose: Collapse all code blocks
+
+   Button at Row 3, Col 2:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Unfold All
+   ├─ Command (ID): editor.unfoldAll
+   ├─ Suggested Icon: 📂
+   └─ Purpose: Expand all code blocks
+
+   Button at Row 3, Col 3:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Toggle Fold
+   ├─ Command (ID): editor.toggleFold
+   ├─ Suggested Icon: 📄
+   └─ Purpose: Toggle current fold
+
+   Button at Row 3, Col 4:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Show Snippets
+   ├─ Command (ID): editor.action.insertSnippet
+   ├─ Suggested Icon: ✂️
+   └─ Purpose: Insert snippet
+
+   Button at Row 3, Col 5:
+   ├─ Drag: 'Visual Studio Code: Execute Command'
+   ├─ Title: Emmet Expand
+   ├─ Command (ID): editor.emmet.action.expandAbbreviation
+   ├─ Suggested Icon: ⚡
+   └─ Purpose: Expand Emmet abbreviation
+
+✅ Page 6 Complete! Test each button to ensure it works.

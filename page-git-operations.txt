@@ -1,0 +1,105 @@
+
+============================================================
+STREAM DECK CONFIGURATION: Git Operations
+============================================================
+
+HOW TO USE THIS CONFIGURATION:
+1. Open Stream Deck software
+2. Create a new page (or use existing)
+3. For each button below:
+   - Drag 'Visual Studio Code: Execute Command' to button position
+   - Set the title and command ID as specified
+   - Optionally customize the icon
+
+============================================================
+
+📍 Position: Row 1, Column 1
+   Title: Git: Commit
+   Command ID: git.commit
+   Icon: ✅
+   Description: Commit staged changes
+   --------------------------------------------------------
+📍 Position: Row 1, Column 2
+   Title: Git: Push
+   Command ID: git.push
+   Icon: ⬆️
+   Description: Push to remote
+   --------------------------------------------------------
+📍 Position: Row 1, Column 3
+   Title: Git: Pull
+   Command ID: git.pull
+   Icon: ⬇️
+   Description: Pull from remote
+   --------------------------------------------------------
+📍 Position: Row 1, Column 4
+   Title: Git: Sync
+   Command ID: git.sync
+   Icon: 🔄
+   Description: Sync with remote
+   --------------------------------------------------------
+📍 Position: Row 1, Column 5
+   Title: Git: Fetch
+   Command ID: git.fetch
+   Icon: 📥
+   Description: Fetch from remote
+   --------------------------------------------------------
+📍 Position: Row 2, Column 1
+   Title: Stage All
+   Command ID: git.stageAll
+   Icon: ➕
+   Description: Stage all changes
+   --------------------------------------------------------
+📍 Position: Row 2, Column 2
+   Title: Unstage All
+   Command ID: git.unstageAll
+   Icon: ➖
+   Description: Unstage all changes
+   --------------------------------------------------------
+📍 Position: Row 2, Column 3
+   Title: Show Changes
+   Command ID: git.openChange
+   Icon: 👁️
+   Description: View file changes
+   --------------------------------------------------------
+📍 Position: Row 2, Column 4
+   Title: New Branch
+   Command ID: git.branch
+   Icon: 🌿
+   Description: Create new branch
+   --------------------------------------------------------
+📍 Position: Row 2, Column 5
+   Title: Checkout
+   Command ID: git.checkout
+   Icon: 🔀
+   Description: Switch branch
+   --------------------------------------------------------
+📍 Position: Row 3, Column 1
+   Title: View History
+   Command ID: git.viewHistory
+   Icon: 📜
+   Description: View commit history
+   --------------------------------------------------------
+📍 Position: Row 3, Column 2
+   Title: Stash
+   Command ID: git.stash
+   Icon: 📦
+   Description: Stash changes
+   --------------------------------------------------------
+📍 Position: Row 3, Column 3
+   Title: Pop Stash
+   Command ID: git.stashPop
+   Icon: 📤
+   Description: Apply stashed changes
+   --------------------------------------------------------
+📍 Position: Row 3, Column 4
+   Title: Merge
+   Command ID: git.merge
+   Icon: 🔗
+   Description: Merge branch
+   --------------------------------------------------------
+📍 Position: Row 3, Column 5
+   Title: Clone Repo
+   Command ID: git.clone
+   Icon: 📋
+   Description: Clone repository
+   --------------------------------------------------------

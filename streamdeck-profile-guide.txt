@@ -1,0 +1,448 @@
+STREAM DECK PROFILE SETUP GUIDE FOR VS CODE
+======================================================================
+
+This guide helps you set up all pages on your Stream Deck.
+
+
+======================================================================
+PAGE: Navigation & Files
+======================================================================
+
+
+Row 1:
+----------------------------------------------------------------------
+  [1] 📁 Quick Open
+      Command: workbench.action.quickOpen
+      Info: Open file quickly (Ctrl+P)
+
+  [2] ⚡ Command Palette
+      Command: workbench.action.showCommands
+      Info: Open command palette (Ctrl+Shift+P)
+
+  [3] 🎯 Go to Symbol
+      Command: workbench.action.gotoSymbol
+      Info: Navigate to symbol in file (Ctrl+Shift+O)
+
+  [4] ↓ Go to Line
+      Command: workbench.action.gotoLine
+      Info: Go to specific line (Ctrl+G)
+
+  [5] 📂 File Explorer
+      Command: workbench.view.explorer
+      Info: Toggle file explorer
+
+
+Row 2:
+----------------------------------------------------------------------
+  [1] 🔍 Search
+      Command: workbench.view.search
+      Info: Open search panel
+
+  [2] 🔀 Source Control
+      Command: workbench.view.scm
+      Info: Open source control
+
+  [3] 🧩 Extensions
+      Command: workbench.view.extensions
+      Info: Open extensions panel
+
+  [4] ❌ Close Editor
+      Command: workbench.action.closeActiveEditor
+      Info: Close current file
+
+  [5] 🗑️ Close All
+      Command: workbench.action.closeAllEditors
+      Info: Close all open files
+
+
+Row 3:
+----------------------------------------------------------------------
+  [1] ⚡ Split Editor
+      Command: workbench.action.splitEditor
+      Info: Split editor view
+
+  [2] → Next Editor
+      Command: workbench.action.nextEditor
+      Info: Go to next tab
+
+  [3] ← Prev Editor
+      Command: workbench.action.previousEditor
+      Info: Go to previous tab
+
+  [4] 📄 New File
+      Command: workbench.action.files.newUntitledFile
+      Info: Create new file
+
+  [5] 💾 Save All
+      Command: workbench.action.files.saveAll
+      Info: Save all open files
+
+
+======================================================================
+PAGE: Code Editing
+======================================================================
+
+
+Row 1:
+----------------------------------------------------------------------
+  [1] ✨ Format Doc
+      Command: editor.action.formatDocument
+      Info: Format entire document
+
+  [2] 📝 Format Select
+      Command: editor.action.formatSelection
+      Info: Format selected code
+
+  [3] 💬 Comment Line
+      Command: editor.action.commentLine
+      Info: Toggle line comment
+
+  [4] 📦 Block Comment
+      Command: editor.action.blockComment
+      Info: Toggle block comment
+
+  [5] 🏷️ Rename Symbol
+      Command: editor.action.rename
+      Info: Rename symbol (F2)
+
+
+Row 2:
+----------------------------------------------------------------------
+  [1] 🔎 Find
+      Command: actions.find
+      Info: Find in file
+
+  [2] 🔄 Replace
+      Command: editor.action.startFindReplaceAction
+      Info: Find and replace
+
+  [3] 🎯 Go to Definition
+      Command: editor.action.revealDefinition
+      Info: Jump to definition
+
+  [4] 👁️ Peek Definition
+      Command: editor.action.peekDefinition
+      Info: Peek at definition
+
+  [5] 🔗 Find References
+      Command: editor.action.goToReferences
+      Info: Find all references
+
+
+Row 3:
+----------------------------------------------------------------------
+  [1] ⬆️ Move Line Up
+      Command: editor.action.moveLinesUpAction
+      Info: Move line up
+
+  [2] ⬇️ Move Line Down
+      Command: editor.action.moveLinesDownAction
+      Info: Move line down
+
+  [3] 📋⬆️ Copy Line Up
+      Command: editor.action.copyLinesUpAction
+      Info: Duplicate line up
+
+  [4] 📋⬇️ Copy Line Down
+      Command: editor.action.copyLinesDownAction
+      Info: Duplicate line down
+
+  [5] 🗑️ Delete Line
+      Command: editor.action.deleteLines
+      Info: Delete current line
+
+
+======================================================================
+PAGE: Terminal & Debug
+======================================================================
+
+
+Row 1:
+----------------------------------------------------------------------
+  [1] 🖥️ New Terminal
+      Command: workbench.action.terminal.new
+      Info: Create new terminal
+
+  [2] ⚡ Toggle Terminal
+      Command: workbench.action.terminal.toggleTerminal
+      Info: Show/hide terminal
+
+  [3] ❌ Kill Terminal
+      Command: workbench.action.terminal.kill
+      Info: Close active terminal
+
+  [4] 🧹 Clear Terminal
+      Command: workbench.action.terminal.clear
+      Info: Clear terminal output
+
+  [5] ⚡ Split Terminal
+      Command: workbench.action.terminal.split
+      Info: Split terminal pane
+
+
+Row 2:
+----------------------------------------------------------------------
+  [1] ▶️ Start Debug
+      Command: workbench.action.debug.start
+      Info: Start debugging
+
+  [2] ⏹️ Stop Debug
+      Command: workbench.action.debug.stop
+      Info: Stop debugging
+
+  [3] ⏭️ Step Over
+      Command: workbench.action.debug.stepOver
+      Info: Step over function
+
+  [4] ⤵️ Step Into
+      Command: workbench.action.debug.stepInto
+      Info: Step into function
+
+  [5] ⤴️ Step Out
+      Command: workbench.action.debug.stepOut
+      Info: Step out of function
+
+
+Row 3:
+----------------------------------------------------------------------
+  [1] 🔴 Toggle Breakpoint
+      Command: editor.debug.action.toggleBreakpoint
+      Info: Add/remove breakpoint
+
+  [2] ▶️ Continue
+      Command: workbench.action.debug.continue
+      Info: Continue execution
+
+  [3] 🔄 Restart Debug
+      Command: workbench.action.debug.restart
+      Info: Restart debugging
+
+  [4] 🏃 Run Task
+      Command: workbench.action.tasks.runTask
+      Info: Run configured task
+
+  [5] ⚠️ Problems
+      Command: workbench.actions.view.problems
+      Info: Show problems panel
+
+
+======================================================================
+PAGE: Git Operations
+======================================================================
+
+
+Row 1:
+----------------------------------------------------------------------
+  [1] ✅ Git: Commit
+      Command: git.commit
+      Info: Commit staged changes
+
+  [2] ⬆️ Git: Push
+      Command: git.push
+      Info: Push to remote
+
+  [3] ⬇️ Git: Pull
+      Command: git.pull
+      Info: Pull from remote
+
+  [4] 🔄 Git: Sync
+      Command: git.sync
+      Info: Sync with remote
+
+  [5] 📥 Git: Fetch
+      Command: git.fetch
+      Info: Fetch from remote
+
+
+Row 2:
+----------------------------------------------------------------------
+  [1] ➕ Stage All
+      Command: git.stageAll
+      Info: Stage all changes
+
+  [2] ➖ Unstage All
+      Command: git.unstageAll
+      Info: Unstage all changes
+
+  [3] 👁️ Show Changes
+      Command: git.openChange
+      Info: View file changes
+
+  [4] 🌿 New Branch
+      Command: git.branch
+      Info: Create new branch
+
+  [5] 🔀 Checkout
+      Command: git.checkout
+      Info: Switch branch
+
+
+Row 3:
+----------------------------------------------------------------------
+  [1] 📜 View History
+      Command: git.viewHistory
+      Info: View commit history
+
+  [2] 📦 Stash
+      Command: git.stash
+      Info: Stash changes
+
+  [3] 📤 Pop Stash
+      Command: git.stashPop
+      Info: Apply stashed changes
+
+  [4] 🔗 Merge
+      Command: git.merge
+      Info: Merge branch
+
+  [5] 📋 Clone Repo
+      Command: git.clone
+      Info: Clone repository
+
+
+======================================================================
+PAGE: Workspace & Views
+======================================================================
+
+
+Row 1:
+----------------------------------------------------------------------
+  [1] 🧘 Zen Mode
+      Command: workbench.action.toggleZenMode
+      Info: Toggle zen mode
+
+  [2] 🖥️ Fullscreen
+      Command: workbench.action.toggleFullScreen
+      Info: Toggle fullscreen
+
+  [3] 📚 Toggle Sidebar
+      Command: workbench.action.toggleSidebarVisibility
+      Info: Show/hide sidebar
+
+  [4] 📊 Toggle Panel
+      Command: workbench.action.togglePanel
+      Info: Show/hide bottom panel
+
+  [5] ⚙️ Settings
+      Command: workbench.action.openSettings
+      Info: Open settings
+
+
+Row 2:
+----------------------------------------------------------------------
+  [1] 📂 Open Folder
+      Command: workbench.action.files.openFolder
+      Info: Open folder/workspace
+
+  [2] ❌ Close Folder
+      Command: workbench.action.closeFolder
+      Info: Close current workspace
+
+  [3] 🕐 Recent Workspaces
+      Command: workbench.action.openRecent
+      Info: Open recent workspaces
+
+  [4] 🪟 New Window
+      Command: workbench.action.newWindow
+      Info: Open new VS Code window
+
+  [5] 🔄 Reload Window
+      Command: workbench.action.reloadWindow
+      Info: Reload VS Code
+
+
+Row 3:
+----------------------------------------------------------------------
+  [1] 🔍+ Zoom In
+      Command: workbench.action.zoomIn
+      Info: Increase zoom level
+
+  [2] 🔍- Zoom Out
+      Command: workbench.action.zoomOut
+      Info: Decrease zoom level
+
+  [3] 🔍 Reset Zoom
+      Command: workbench.action.zoomReset
+      Info: Reset zoom to default
+
+  [4] ⌨️ Keybindings
+      Command: workbench.action.openGlobalKeybindings
+      Info: Edit keyboard shortcuts
+
+  [5] 🎨 Color Theme
+      Command: workbench.action.selectTheme
+      Info: Change color theme
+
+
+======================================================================
+PAGE: Advanced Features
+======================================================================
+
+
+Row 1:
+----------------------------------------------------------------------
+  [1] ⬆️| Multi-Cursor
+      Command: editor.action.insertCursorAbove
+      Info: Add cursor above
+
+  [2] 🔍✨ Select All Occurrences
+      Command: editor.action.selectHighlights
+      Info: Select all matching text
+
+  [3] ↔️ Expand Selection
+      Command: editor.action.smartSelect.expand
+      Info: Smart expand selection
+
+  [4] ↔️ Shrink Selection
+      Command: editor.action.smartSelect.shrink
+      Info: Smart shrink selection
+
+  [5] ABC Transform to Upper
+      Command: editor.action.transformToUppercase
+      Info: Convert to uppercase
+
+
+Row 2:
+----------------------------------------------------------------------
+  [1] abc Transform to Lower
+      Command: editor.action.transformToLowercase
+      Info: Convert to lowercase
+
+  [2] ⬆️📝 Sort Lines Asc
+      Command: editor.action.sortLinesAscending
+      Info: Sort lines A-Z
+
+  [3] ⬇️📝 Sort Lines Desc
+      Command: editor.action.sortLinesDescending
+      Info: Sort lines Z-A
+
+  [4] 🧹 Trim Trailing Space
+      Command: editor.action.trimTrailingWhitespace
+      Info: Remove trailing whitespace
+
+  [5] ⬅️➡️ Join Lines
+      Command: editor.action.joinLines
+      Info: Join selected lines
+
+
+Row 3:
+----------------------------------------------------------------------
+  [1] 📁 Fold All
+      Command: editor.foldAll
+      Info: Collapse all code blocks
+
+  [2] 📂 Unfold All
+      Command: editor.unfoldAll
+      Info: Expand all code blocks
+
+  [3] 📄 Toggle Fold
+      Command: editor.toggleFold
+      Info: Toggle current fold
+
+  [4] ✂️ Show Snippets
+      Command: editor.action.insertSnippet
+      Info: Insert snippet
+
+  [5] ⚡ Emmet Expand
+      Command: editor.emmet.action.expandAbbreviation
+      Info: Expand Emmet abbreviation

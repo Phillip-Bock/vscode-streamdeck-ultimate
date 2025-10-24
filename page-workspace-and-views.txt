@@ -1,0 +1,105 @@
+
+============================================================
+STREAM DECK CONFIGURATION: Workspace & Views
+============================================================
+
+HOW TO USE THIS CONFIGURATION:
+1. Open Stream Deck software
+2. Create a new page (or use existing)
+3. For each button below:
+   - Drag 'Visual Studio Code: Execute Command' to button position
+   - Set the title and command ID as specified
+   - Optionally customize the icon
+
+============================================================
+
+📍 Position: Row 1, Column 1
+   Title: Zen Mode
+   Command ID: workbench.action.toggleZenMode
+   Icon: 🧘
+   Description: Toggle zen mode
+   --------------------------------------------------------
+📍 Position: Row 1, Column 2
+   Title: Fullscreen
+   Command ID: workbench.action.toggleFullScreen
+   Icon: 🖥️
+   Description: Toggle fullscreen
+   --------------------------------------------------------
+📍 Position: Row 1, Column 3
+   Title: Toggle Sidebar
+   Command ID: workbench.action.toggleSidebarVisibility
+   Icon: 📚
+   Description: Show/hide sidebar
+   --------------------------------------------------------
+📍 Position: Row 1, Column 4
+   Title: Toggle Panel
+   Command ID: workbench.action.togglePanel
+   Icon: 📊
+   Description: Show/hide bottom panel
+   --------------------------------------------------------
+📍 Position: Row 1, Column 5
+   Title: Settings
+   Command ID: workbench.action.openSettings
+   Icon: ⚙️
+   Description: Open settings
+   --------------------------------------------------------
+📍 Position: Row 2, Column 1
+   Title: Open Folder
+   Command ID: workbench.action.files.openFolder
+   Icon: 📂
+   Description: Open folder/workspace
+   --------------------------------------------------------
+📍 Position: Row 2, Column 2
+   Title: Close Folder
+   Command ID: workbench.action.closeFolder
+   Icon: ❌
+   Description: Close current workspace
+   --------------------------------------------------------
+📍 Position: Row 2, Column 3
+   Title: Recent Workspaces
+   Command ID: workbench.action.openRecent
+   Icon: 🕐
+   Description: Open recent workspaces
+   --------------------------------------------------------
+📍 Position: Row 2, Column 4
+   Title: New Window
+   Command ID: workbench.action.newWindow
+   Icon: 🪟
+   Description: Open new VS Code window
+   --------------------------------------------------------
+📍 Position: Row 2, Column 5
+   Title: Reload Window
+   Command ID: workbench.action.reloadWindow
+   Icon: 🔄
+   Description: Reload VS Code
+   --------------------------------------------------------
+📍 Position: Row 3, Column 1
+   Title: Zoom In
+   Command ID: workbench.action.zoomIn
+   Icon: 🔍+
+   Description: Increase zoom level
+   --------------------------------------------------------
+📍 Position: Row 3, Column 2
+   Title: Zoom Out
+   Command ID: workbench.action.zoomOut
+   Icon: 🔍-
+   Description: Decrease zoom level
+   --------------------------------------------------------
+📍 Position: Row 3, Column 3
+   Title: Reset Zoom
+   Command ID: workbench.action.zoomReset
+   Icon: 🔍
+   Description: Reset zoom to default
+   --------------------------------------------------------
+📍 Position: Row 3, Column 4
+   Title: Keybindings
+   Command ID: workbench.action.openGlobalKeybindings
+   Icon: ⌨️
+   Description: Edit keyboard shortcuts
+   --------------------------------------------------------
+📍 Position: Row 3, Column 5
+   Title: Color Theme
+   Command ID: workbench.action.selectTheme
+   Icon: 🎨
+   Description: Change color theme
+   --------------------------------------------------------

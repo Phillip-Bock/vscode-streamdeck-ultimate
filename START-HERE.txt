@@ -1,0 +1,231 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║                     ⭐ START HERE FIRST ⭐                              ║
+║                                                                          ║
+║              Stream Deck VS Code Configuration Package                  ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+🎯 YOUR MISSION: Configure 90 awesome VS Code commands on your Stream Deck!
+
+
+═══════════════════════════════════════════════════════════════════════════
+  STEP 1: UNDERSTAND WHAT YOU HAVE
+═══════════════════════════════════════════════════════════════════════════
+
+You now have 20 files that give you:
+
+✅ 6 themed pages for your Stream Deck (3 rows × 5 columns each)
+✅ 90 carefully selected VS Code commands
+✅ Complete setup instructions
+✅ Beautiful printable reference guides
+✅ Customization tools
+
+Think of it like this:
+- Your Stream Deck = 6-page notebook
+- Each page = 15 buttons (3×5 grid)
+- Total = 90 programmable commands at your fingertips!
+
+
+═══════════════════════════════════════════════════════════════════════════
+  STEP 2: FOLLOW THIS EXACT ORDER
+═══════════════════════════════════════════════════════════════════════════
+
+Don't get overwhelmed by all the files! Just do this:
+
+1️⃣  READ THIS FIRST
+    └─ 📄 README.md
+       └─ Complete overview (5 min read)
+       └─ Explains what everything is
+
+2️⃣  INSTALL THE EXTENSION
+    └─ Open VS Code
+    └─ Press Ctrl+P (or Cmd+P on Mac)  
+    └─ Type: ext install nicollasr.vscode-streamdeck
+    └─ Press Enter
+
+3️⃣  OPEN YOUR SETUP GUIDE
+    └─ 📄 streamdeck-setup-step-by-step.txt
+       └─ Follow it page by page
+       └─ This is your main instruction manual
+
+4️⃣  OPEN YOUR VISUAL REFERENCE
+    └─ 🌐 streamdeck-cheatsheet.html
+       └─ Open in your web browser
+       └─ Keep this open while you configure
+       └─ Bookmark it!
+
+5️⃣  CONFIGURE ONE PAGE AT A TIME
+    └─ Start with Page 1: Navigation & Files
+    └─ Use the step-by-step guide
+    └─ Test buttons as you go
+    └─ Then do Page 2, then Page 3, etc.
+
+6️⃣  PRINT THE CHEAT SHEET (OPTIONAL BUT RECOMMENDED)
+    └─ In browser: Click "Print Cheat Sheet" button
+    └─ Or press Ctrl+P
+    └─ Keep it near your Stream Deck
+
+
+═══════════════════════════════════════════════════════════════════════════
+  QUICK REFERENCE: MOST IMPORTANT FILES
+═══════════════════════════════════════════════════════════════════════════
+
+🟢 MUST READ:
+   📄 README.md                           ← Overview of everything
+   📄 streamdeck-setup-step-by-step.txt   ← Main setup instructions
+
+🟡 SHOULD USE:
+   🌐 streamdeck-cheatsheet.html          ← Visual reference (BOOKMARK!)
+   📄 FILE-GUIDE.txt                      ← This file!
+
+🔵 GOOD TO HAVE:
+   📄 Individual page-*.txt files         ← One file per page
+   📄 streamdeck-profile-guide.txt        ← All pages in one file
+
+
+═══════════════════════════════════════════════════════════════════════════
+  THE 6 PAGES YOU'LL CREATE
+═══════════════════════════════════════════════════════════════════════════
+
+📁 Page 1: Navigation & Files
+   → Opening files, switching tabs, file explorer, search
+
+✏️ Page 2: Code Editing  
+   → Formatting, commenting, find/replace, refactoring
+
+💻 Page 3: Terminal & Debug
+   → Terminal controls, debugging, breakpoints
+
+🔀 Page 4: Git Operations
+   → Commit, push, pull, branches, stash
+
+🪟 Page 5: Workspace & Views
+   → Zen mode, zoom, themes, fullscreen
+
+🚀 Page 6: Advanced Features
+   → Multi-cursor, text transforms, folding
+
+
+═══════════════════════════════════════════════════════════════════════════
+  ESTIMATED TIME TO COMPLETE
+═══════════════════════════════════════════════════════════════════════════
+
+⏱️  Quick Setup (Page 1 only):        15-20 minutes
+⏱️  Basic Setup (Pages 1-3):          45-60 minutes
+⏱️  Complete Setup (All 6 pages):     90-120 minutes
+
+💡 TIP: You can do one page at a time! No need to do everything in one sitting.
+
+
+═══════════════════════════════════════════════════════════════════════════
+  TROUBLESHOOTING BEFORE YOU START
+═══════════════════════════════════════════════════════════════════════════
+
+❓ "I don't have VS Code"
+   → Download from: https://code.visualstudio.com/
+
+❓ "I don't have Stream Deck software"
+   → Download from: https://www.elgato.com/downloads
+
+❓ "My Stream Deck isn't 3×5"
+   → These configs are for 3 rows × 5 columns
+   → If yours is different, you'll need to adapt
+
+❓ "I'm overwhelmed by all these files"
+   → Just focus on README.md and streamdeck-setup-step-by-step.txt
+   → Ignore everything else for now
+
+❓ "Can I customize the commands?"
+   → Yes! But do the default setup first
+   → Then modify later using streamdeck-custom-template.json
+
+
+═══════════════════════════════════════════════════════════════════════════
+  WHAT HAPPENS IN THE SETUP
+═══════════════════════════════════════════════════════════════════════════
+
+For each of the 90 buttons, you'll:
+
+1. Open Stream Deck software
+2. Drag "Visual Studio Code: Execute Command" to button position
+3. Enter the Command ID (provided in the guides)
+4. Set the button title (suggested in the guides)
+5. Optional: Add an icon
+6. Test the button
+
+Example for one button:
+  Position: Row 1, Column 1
+  Title: "Quick Open"
+  Command ID: workbench.action.quickOpen
+  Icon: 📁
+  What it does: Opens file search (like Ctrl+P)
+
+
+═══════════════════════════════════════════════════════════════════════════
+  PRO TIPS FOR SUCCESS
+═══════════════════════════════════════════════════════════════════════════
+
+✅ Test each button right after you configure it
+✅ Start with Page 1 - it has the most essential commands
+✅ Keep the HTML cheat sheet open in a browser tab
+✅ Do one page completely before moving to the next
+✅ Print the cheat sheet and keep it near your Stream Deck
+✅ VS Code must be focused for buttons to work
+✅ Check VS Code status bar to see if extension is connected
+
+
+═══════════════════════════════════════════════════════════════════════════
+  READY TO BEGIN?
+═══════════════════════════════════════════════════════════════════════════
+
+👉 Open these two files NOW:
+
+   1. README.md (read it, 5 minutes)
+   2. streamdeck-setup-step-by-step.txt (your main guide)
+
+Then open streamdeck-cheatsheet.html in your browser!
+
+
+═══════════════════════════════════════════════════════════════════════════
+  AFTER YOU'RE DONE
+═══════════════════════════════════════════════════════════════════════════
+
+Once configured, you'll have instant access to:
+
+✨ File navigation and quick open
+✨ All editing commands at your fingertips  
+✨ Terminal control without keyboard shortcuts
+✨ Full Git workflow on your Stream Deck
+✨ Workspace management and views
+✨ Advanced editing features
+
+Your VS Code workflow will never be the same! 🚀
+
+
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║                     🎯 YOUR NEXT STEPS 🎯                               ║
+║                                                                          ║
+║  1. ✅ Read README.md                                                   ║
+║  2. ✅ Install VS Code extension                                        ║
+║  3. ✅ Open streamdeck-setup-step-by-step.txt                           ║
+║  4. ✅ Open streamdeck-cheatsheet.html in browser                       ║
+║  5. ✅ Configure Page 1                                                 ║
+║  6. ✅ Continue with remaining pages                                    ║
+║                                                                          ║
+║                    🚀 Let's get started! 🚀                             ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+                Questions? Stuck? Confused?
+
+                Check FILE-GUIDE.txt for which file to use
+                Check README.md for detailed explanations
+                Check the HTML cheat sheet for visual reference
+
+═══════════════════════════════════════════════════════════════════════════

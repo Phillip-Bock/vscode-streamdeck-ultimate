@@ -1,0 +1,105 @@
+
+============================================================
+STREAM DECK CONFIGURATION: Advanced Features
+============================================================
+
+HOW TO USE THIS CONFIGURATION:
+1. Open Stream Deck software
+2. Create a new page (or use existing)
+3. For each button below:
+   - Drag 'Visual Studio Code: Execute Command' to button position
+   - Set the title and command ID as specified
+   - Optionally customize the icon
+
+============================================================
+
+📍 Position: Row 1, Column 1
+   Title: Multi-Cursor
+   Command ID: editor.action.insertCursorAbove
+   Icon: ⬆️|
+   Description: Add cursor above
+   --------------------------------------------------------
+📍 Position: Row 1, Column 2
+   Title: Select All Occurrences
+   Command ID: editor.action.selectHighlights
+   Icon: 🔍✨
+   Description: Select all matching text
+   --------------------------------------------------------
+📍 Position: Row 1, Column 3
+   Title: Expand Selection
+   Command ID: editor.action.smartSelect.expand
+   Icon: ↔️
+   Description: Smart expand selection
+   --------------------------------------------------------
+📍 Position: Row 1, Column 4
+   Title: Shrink Selection
+   Command ID: editor.action.smartSelect.shrink
+   Icon: ↔️
+   Description: Smart shrink selection
+   --------------------------------------------------------
+📍 Position: Row 1, Column 5
+   Title: Transform to Upper
+   Command ID: editor.action.transformToUppercase
+   Icon: ABC
+   Description: Convert to uppercase
+   --------------------------------------------------------
+📍 Position: Row 2, Column 1
+   Title: Transform to Lower
+   Command ID: editor.action.transformToLowercase
+   Icon: abc
+   Description: Convert to lowercase
+   --------------------------------------------------------
+📍 Position: Row 2, Column 2
+   Title: Sort Lines Asc
+   Command ID: editor.action.sortLinesAscending
+   Icon: ⬆️📝
+   Description: Sort lines A-Z
+   --------------------------------------------------------
+📍 Position: Row 2, Column 3
+   Title: Sort Lines Desc
+   Command ID: editor.action.sortLinesDescending
+   Icon: ⬇️📝
+   Description: Sort lines Z-A
+   --------------------------------------------------------
+📍 Position: Row 2, Column 4
+   Title: Trim Trailing Space
+   Command ID: editor.action.trimTrailingWhitespace
+   Icon: 🧹
+   Description: Remove trailing whitespace
+   --------------------------------------------------------
+📍 Position: Row 2, Column 5
+   Title: Join Lines
+   Command ID: editor.action.joinLines
+   Icon: ⬅️➡️
+   Description: Join selected lines
+   --------------------------------------------------------
+📍 Position: Row 3, Column 1
+   Title: Fold All
+   Command ID: editor.foldAll
+   Icon: 📁
+   Description: Collapse all code blocks
+   --------------------------------------------------------
+📍 Position: Row 3, Column 2
+   Title: Unfold All
+   Command ID: editor.unfoldAll
+   Icon: 📂
+   Description: Expand all code blocks
+   --------------------------------------------------------
+📍 Position: Row 3, Column 3
+   Title: Toggle Fold
+   Command ID: editor.toggleFold
+   Icon: 📄
+   Description: Toggle current fold
+   --------------------------------------------------------
+📍 Position: Row 3, Column 4
+   Title: Show Snippets
+   Command ID: editor.action.insertSnippet
+   Icon: ✂️
+   Description: Insert snippet
+   --------------------------------------------------------
+📍 Position: Row 3, Column 5
+   Title: Emmet Expand
+   Command ID: editor.emmet.action.expandAbbreviation
+   Icon: ⚡
+   Description: Expand Emmet abbreviation
+   --------------------------------------------------------

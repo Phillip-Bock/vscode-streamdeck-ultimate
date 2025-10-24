@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Deck VS Code Cheat Sheet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .page-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            page-break-inside: avoid;
+        }
+        
+        .page-title {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .button-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .button-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 10px;
+            padding: 15px;
+            border: 2px solid #667eea;
+            transition: transform 0.2s, box-shadow 0.2s;
+            min-height: 180px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .button-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+        }
+        
+        .button-icon {
+            font-size: 2em;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        
+        .button-title {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 0.95em;
+            text-align: center;
+        }
+        
+        .button-command {
+            font-family: 'Courier New', monospace;
+            font-size: 0.75em;
+            background: rgba(255,255,255,0.7);
+            padding: 4px 6px;
+            border-radius: 4px;
+            color: #666;
+            word-break: break-all;
+            margin-bottom: 8px;
+            flex-grow: 1;
+        }
+        
+        .button-description {
+            font-size: 0.8em;
+            color: #555;
+            line-height: 1.3;
+        }
+        
+        .position-label {
+            background: #667eea;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.7em;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .page-section {
+                page-break-inside: avoid;
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+            
+            .button-card:hover {
+                transform: none;
+                box-shadow: none;
+            }
+        }
+        
+        .print-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #667eea;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            border: none;
+            font-size: 1.1em;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+        
+        .print-button:hover {
+            background: #764ba2;
+            transform: scale(1.05);
+        }
+        
+        @media print {
+            .print-button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎛️ Stream Deck VS Code Cheat Sheet</h1>
+            <p>Complete reference for all 6 pages • 3 rows × 5 columns each = 90 buttons total</p>
+        </div>
+
+        <div class="page-section">
+            <h2 class="page-title">📁 Page 1: Navigation & Files</h2>
+            <div class="button-grid">
+                <div class="button-card">
+                    <span class="position-label">R1 C1</span>
+                    <div class="button-icon">📁</div>
+                    <div class="button-title">Quick Open</div>
+                    <div class="button-command">workbench.action.quickOpen</div>
+                    <div class="button-description">Open file quickly (Ctrl+P)</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C2</span>
+                    <div class="button-icon">⚡</div>
+                    <div class="button-title">Command Palette</div>
+                    <div class="button-command">workbench.action.showCommands</div>
+                    <div class="button-description">Open command palette</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C3</span>
+                    <div class="button-icon">🎯</div>
+                    <div class="button-title">Go to Symbol</div>
+                    <div class="button-command">workbench.action.gotoSymbol</div>
+                    <div class="button-description">Navigate to symbol in file</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C4</span>
+                    <div class="button-icon">↓</div>
+                    <div class="button-title">Go to Line</div>
+                    <div class="button-command">workbench.action.gotoLine</div>
+                    <div class="button-description">Go to specific line</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C5</span>
+                    <div class="button-icon">📂</div>
+                    <div class="button-title">File Explorer</div>
+                    <div class="button-command">workbench.view.explorer</div>
+                    <div class="button-description">Toggle file explorer</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C1</span>
+                    <div class="button-icon">🔍</div>
+                    <div class="button-title">Search</div>
+                    <div class="button-command">workbench.view.search</div>
+                    <div class="button-description">Open search panel</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C2</span>
+                    <div class="button-icon">🔀</div>
+                    <div class="button-title">Source Control</div>
+                    <div class="button-command">workbench.view.scm</div>
+                    <div class="button-description">Open source control</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C3</span>
+                    <div class="button-icon">🧩</div>
+                    <div class="button-title">Extensions</div>
+                    <div class="button-command">workbench.view.extensions</div>
+                    <div class="button-description">Open extensions panel</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C4</span>
+                    <div class="button-icon">❌</div>
+                    <div class="button-title">Close Editor</div>
+                    <div class="button-command">workbench.action.closeActiveEditor</div>
+                    <div class="button-description">Close current file</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C5</span>
+                    <div class="button-icon">🗑️</div>
+                    <div class="button-title">Close All</div>
+                    <div class="button-command">workbench.action.closeAllEditors</div>
+                    <div class="button-description">Close all open files</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C1</span>
+                    <div class="button-icon">⚡</div>
+                    <div class="button-title">Split Editor</div>
+                    <div class="button-command">workbench.action.splitEditor</div>
+                    <div class="button-description">Split editor view</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C2</span>
+                    <div class="button-icon">→</div>
+                    <div class="button-title">Next Editor</div>
+                    <div class="button-command">workbench.action.nextEditor</div>
+                    <div class="button-description">Go to next tab</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C3</span>
+                    <div class="button-icon">←</div>
+                    <div class="button-title">Prev Editor</div>
+                    <div class="button-command">workbench.action.previousEditor</div>
+                    <div class="button-description">Go to previous tab</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C4</span>
+                    <div class="button-icon">📄</div>
+                    <div class="button-title">New File</div>
+                    <div class="button-command">workbench.action.files.newUntitledFile</div>
+                    <div class="button-description">Create new file</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C5</span>
+                    <div class="button-icon">💾</div>
+                    <div class="button-title">Save All</div>
+                    <div class="button-command">workbench.action.files.saveAll</div>
+                    <div class="button-description">Save all open files</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-section">
+            <h2 class="page-title">✏️ Page 2: Code Editing</h2>
+            <div class="button-grid">
+                <div class="button-card">
+                    <span class="position-label">R1 C1</span>
+                    <div class="button-icon">✨</div>
+                    <div class="button-title">Format Doc</div>
+                    <div class="button-command">editor.action.formatDocument</div>
+                    <div class="button-description">Format entire document</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C2</span>
+                    <div class="button-icon">📝</div>
+                    <div class="button-title">Format Select</div>
+                    <div class="button-command">editor.action.formatSelection</div>
+                    <div class="button-description">Format selected code</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C3</span>
+                    <div class="button-icon">💬</div>
+                    <div class="button-title">Comment Line</div>
+                    <div class="button-command">editor.action.commentLine</div>
+                    <div class="button-description">Toggle line comment</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C4</span>
+                    <div class="button-icon">📦</div>
+                    <div class="button-title">Block Comment</div>
+                    <div class="button-command">editor.action.blockComment</div>
+                    <div class="button-description">Toggle block comment</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C5</span>
+                    <div class="button-icon">🏷️</div>
+                    <div class="button-title">Rename Symbol</div>
+                    <div class="button-command">editor.action.rename</div>
+                    <div class="button-description">Rename symbol (F2)</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C1</span>
+                    <div class="button-icon">🔎</div>
+                    <div class="button-title">Find</div>
+                    <div class="button-command">actions.find</div>
+                    <div class="button-description">Find in file</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C2</span>
+                    <div class="button-icon">🔄</div>
+                    <div class="button-title">Replace</div>
+                    <div class="button-command">editor.action.startFindReplaceAction</div>
+                    <div class="button-description">Find and replace</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C3</span>
+                    <div class="button-icon">🎯</div>
+                    <div class="button-title">Go to Definition</div>
+                    <div class="button-command">editor.action.revealDefinition</div>
+                    <div class="button-description">Jump to definition</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C4</span>
+                    <div class="button-icon">👁️</div>
+                    <div class="button-title">Peek Definition</div>
+                    <div class="button-command">editor.action.peekDefinition</div>
+                    <div class="button-description">Peek at definition</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C5</span>
+                    <div class="button-icon">🔗</div>
+                    <div class="button-title">Find References</div>
+                    <div class="button-command">editor.action.goToReferences</div>
+                    <div class="button-description">Find all references</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C1</span>
+                    <div class="button-icon">⬆️</div>
+                    <div class="button-title">Move Line Up</div>
+                    <div class="button-command">editor.action.moveLinesUpAction</div>
+                    <div class="button-description">Move line up</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C2</span>
+                    <div class="button-icon">⬇️</div>
+                    <div class="button-title">Move Line Down</div>
+                    <div class="button-command">editor.action.moveLinesDownAction</div>
+                    <div class="button-description">Move line down</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C3</span>
+                    <div class="button-icon">📋⬆️</div>
+                    <div class="button-title">Copy Line Up</div>
+                    <div class="button-command">editor.action.copyLinesUpAction</div>
+                    <div class="button-description">Duplicate line up</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C4</span>
+                    <div class="button-icon">📋⬇️</div>
+                    <div class="button-title">Copy Line Down</div>
+                    <div class="button-command">editor.action.copyLinesDownAction</div>
+                    <div class="button-description">Duplicate line down</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C5</span>
+                    <div class="button-icon">🗑️</div>
+                    <div class="button-title">Delete Line</div>
+                    <div class="button-command">editor.action.deleteLines</div>
+                    <div class="button-description">Delete current line</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-section">
+            <h2 class="page-title">💻 Page 3: Terminal & Debug</h2>
+            <div class="button-grid">
+                <div class="button-card">
+                    <span class="position-label">R1 C1</span>
+                    <div class="button-icon">🖥️</div>
+                    <div class="button-title">New Terminal</div>
+                    <div class="button-command">workbench.action.terminal.new</div>
+                    <div class="button-description">Create new terminal</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C2</span>
+                    <div class="button-icon">⚡</div>
+                    <div class="button-title">Toggle Terminal</div>
+                    <div class="button-command">workbench.action.terminal.toggleTerminal</div>
+                    <div class="button-description">Show/hide terminal</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C3</span>
+                    <div class="button-icon">❌</div>
+                    <div class="button-title">Kill Terminal</div>
+                    <div class="button-command">workbench.action.terminal.kill</div>
+                    <div class="button-description">Close active terminal</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C4</span>
+                    <div class="button-icon">🧹</div>
+                    <div class="button-title">Clear Terminal</div>
+                    <div class="button-command">workbench.action.terminal.clear</div>
+                    <div class="button-description">Clear terminal output</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C5</span>
+                    <div class="button-icon">⚡</div>
+                    <div class="button-title">Split Terminal</div>
+                    <div class="button-command">workbench.action.terminal.split</div>
+                    <div class="button-description">Split terminal pane</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C1</span>
+                    <div class="button-icon">▶️</div>
+                    <div class="button-title">Start Debug</div>
+                    <div class="button-command">workbench.action.debug.start</div>
+                    <div class="button-description">Start debugging</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C2</span>
+                    <div class="button-icon">⏹️</div>
+                    <div class="button-title">Stop Debug</div>
+                    <div class="button-command">workbench.action.debug.stop</div>
+                    <div class="button-description">Stop debugging</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C3</span>
+                    <div class="button-icon">⏭️</div>
+                    <div class="button-title">Step Over</div>
+                    <div class="button-command">workbench.action.debug.stepOver</div>
+                    <div class="button-description">Step over function</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C4</span>
+                    <div class="button-icon">⤵️</div>
+                    <div class="button-title">Step Into</div>
+                    <div class="button-command">workbench.action.debug.stepInto</div>
+                    <div class="button-description">Step into function</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C5</span>
+                    <div class="button-icon">⤴️</div>
+                    <div class="button-title">Step Out</div>
+                    <div class="button-command">workbench.action.debug.stepOut</div>
+                    <div class="button-description">Step out of function</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C1</span>
+                    <div class="button-icon">🔴</div>
+                    <div class="button-title">Toggle Breakpoint</div>
+                    <div class="button-command">editor.debug.action.toggleBreakpoint</div>
+                    <div class="button-description">Add/remove breakpoint</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C2</span>
+                    <div class="button-icon">▶️</div>
+                    <div class="button-title">Continue</div>
+                    <div class="button-command">workbench.action.debug.continue</div>
+                    <div class="button-description">Continue execution</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C3</span>
+                    <div class="button-icon">🔄</div>
+                    <div class="button-title">Restart Debug</div>
+                    <div class="button-command">workbench.action.debug.restart</div>
+                    <div class="button-description">Restart debugging</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C4</span>
+                    <div class="button-icon">🏃</div>
+                    <div class="button-title">Run Task</div>
+                    <div class="button-command">workbench.action.tasks.runTask</div>
+                    <div class="button-description">Run configured task</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C5</span>
+                    <div class="button-icon">⚠️</div>
+                    <div class="button-title">Problems</div>
+                    <div class="button-command">workbench.actions.view.problems</div>
+                    <div class="button-description">Show problems panel</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-section">
+            <h2 class="page-title">🔀 Page 4: Git Operations</h2>
+            <div class="button-grid">
+                <div class="button-card">
+                    <span class="position-label">R1 C1</span>
+                    <div class="button-icon">✅</div>
+                    <div class="button-title">Git: Commit</div>
+                    <div class="button-command">git.commit</div>
+                    <div class="button-description">Commit staged changes</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C2</span>
+                    <div class="button-icon">⬆️</div>
+                    <div class="button-title">Git: Push</div>
+                    <div class="button-command">git.push</div>
+                    <div class="button-description">Push to remote</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C3</span>
+                    <div class="button-icon">⬇️</div>
+                    <div class="button-title">Git: Pull</div>
+                    <div class="button-command">git.pull</div>
+                    <div class="button-description">Pull from remote</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C4</span>
+                    <div class="button-icon">🔄</div>
+                    <div class="button-title">Git: Sync</div>
+                    <div class="button-command">git.sync</div>
+                    <div class="button-description">Sync with remote</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C5</span>
+                    <div class="button-icon">📥</div>
+                    <div class="button-title">Git: Fetch</div>
+                    <div class="button-command">git.fetch</div>
+                    <div class="button-description">Fetch from remote</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C1</span>
+                    <div class="button-icon">➕</div>
+                    <div class="button-title">Stage All</div>
+                    <div class="button-command">git.stageAll</div>
+                    <div class="button-description">Stage all changes</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C2</span>
+                    <div class="button-icon">➖</div>
+                    <div class="button-title">Unstage All</div>
+                    <div class="button-command">git.unstageAll</div>
+                    <div class="button-description">Unstage all changes</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C3</span>
+                    <div class="button-icon">👁️</div>
+                    <div class="button-title">Show Changes</div>
+                    <div class="button-command">git.openChange</div>
+                    <div class="button-description">View file changes</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C4</span>
+                    <div class="button-icon">🌿</div>
+                    <div class="button-title">New Branch</div>
+                    <div class="button-command">git.branch</div>
+                    <div class="button-description">Create new branch</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C5</span>
+                    <div class="button-icon">🔀</div>
+                    <div class="button-title">Checkout</div>
+                    <div class="button-command">git.checkout</div>
+                    <div class="button-description">Switch branch</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C1</span>
+                    <div class="button-icon">📜</div>
+                    <div class="button-title">View History</div>
+                    <div class="button-command">git.viewHistory</div>
+                    <div class="button-description">View commit history</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C2</span>
+                    <div class="button-icon">📦</div>
+                    <div class="button-title">Stash</div>
+                    <div class="button-command">git.stash</div>
+                    <div class="button-description">Stash changes</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C3</span>
+                    <div class="button-icon">📤</div>
+                    <div class="button-title">Pop Stash</div>
+                    <div class="button-command">git.stashPop</div>
+                    <div class="button-description">Apply stashed changes</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C4</span>
+                    <div class="button-icon">🔗</div>
+                    <div class="button-title">Merge</div>
+                    <div class="button-command">git.merge</div>
+                    <div class="button-description">Merge branch</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C5</span>
+                    <div class="button-icon">📋</div>
+                    <div class="button-title">Clone Repo</div>
+                    <div class="button-command">git.clone</div>
+                    <div class="button-description">Clone repository</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-section">
+            <h2 class="page-title">🪟 Page 5: Workspace & Views</h2>
+            <div class="button-grid">
+                <div class="button-card">
+                    <span class="position-label">R1 C1</span>
+                    <div class="button-icon">🧘</div>
+                    <div class="button-title">Zen Mode</div>
+                    <div class="button-command">workbench.action.toggleZenMode</div>
+                    <div class="button-description">Toggle zen mode</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C2</span>
+                    <div class="button-icon">🖥️</div>
+                    <div class="button-title">Fullscreen</div>
+                    <div class="button-command">workbench.action.toggleFullScreen</div>
+                    <div class="button-description">Toggle fullscreen</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C3</span>
+                    <div class="button-icon">📚</div>
+                    <div class="button-title">Toggle Sidebar</div>
+                    <div class="button-command">workbench.action.toggleSidebarVisibility</div>
+                    <div class="button-description">Show/hide sidebar</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C4</span>
+                    <div class="button-icon">📊</div>
+                    <div class="button-title">Toggle Panel</div>
+                    <div class="button-command">workbench.action.togglePanel</div>
+                    <div class="button-description">Show/hide bottom panel</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C5</span>
+                    <div class="button-icon">⚙️</div>
+                    <div class="button-title">Settings</div>
+                    <div class="button-command">workbench.action.openSettings</div>
+                    <div class="button-description">Open settings</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C1</span>
+                    <div class="button-icon">📂</div>
+                    <div class="button-title">Open Folder</div>
+                    <div class="button-command">workbench.action.files.openFolder</div>
+                    <div class="button-description">Open folder/workspace</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C2</span>
+                    <div class="button-icon">❌</div>
+                    <div class="button-title">Close Folder</div>
+                    <div class="button-command">workbench.action.closeFolder</div>
+                    <div class="button-description">Close current workspace</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C3</span>
+                    <div class="button-icon">🕐</div>
+                    <div class="button-title">Recent Workspaces</div>
+                    <div class="button-command">workbench.action.openRecent</div>
+                    <div class="button-description">Open recent workspaces</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C4</span>
+                    <div class="button-icon">🪟</div>
+                    <div class="button-title">New Window</div>
+                    <div class="button-command">workbench.action.newWindow</div>
+                    <div class="button-description">Open new VS Code window</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C5</span>
+                    <div class="button-icon">🔄</div>
+                    <div class="button-title">Reload Window</div>
+                    <div class="button-command">workbench.action.reloadWindow</div>
+                    <div class="button-description">Reload VS Code</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C1</span>
+                    <div class="button-icon">🔍+</div>
+                    <div class="button-title">Zoom In</div>
+                    <div class="button-command">workbench.action.zoomIn</div>
+                    <div class="button-description">Increase zoom level</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C2</span>
+                    <div class="button-icon">🔍-</div>
+                    <div class="button-title">Zoom Out</div>
+                    <div class="button-command">workbench.action.zoomOut</div>
+                    <div class="button-description">Decrease zoom level</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C3</span>
+                    <div class="button-icon">🔍</div>
+                    <div class="button-title">Reset Zoom</div>
+                    <div class="button-command">workbench.action.zoomReset</div>
+                    <div class="button-description">Reset zoom to default</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C4</span>
+                    <div class="button-icon">⌨️</div>
+                    <div class="button-title">Keybindings</div>
+                    <div class="button-command">workbench.action.openGlobalKeybindings</div>
+                    <div class="button-description">Edit keyboard shortcuts</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C5</span>
+                    <div class="button-icon">🎨</div>
+                    <div class="button-title">Color Theme</div>
+                    <div class="button-command">workbench.action.selectTheme</div>
+                    <div class="button-description">Change color theme</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-section">
+            <h2 class="page-title">🚀 Page 6: Advanced Features</h2>
+            <div class="button-grid">
+                <div class="button-card">
+                    <span class="position-label">R1 C1</span>
+                    <div class="button-icon">⬆️|</div>
+                    <div class="button-title">Multi-Cursor</div>
+                    <div class="button-command">editor.action.insertCursorAbove</div>
+                    <div class="button-description">Add cursor above</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C2</span>
+                    <div class="button-icon">🔍✨</div>
+                    <div class="button-title">Select All Occurrences</div>
+                    <div class="button-command">editor.action.selectHighlights</div>
+                    <div class="button-description">Select all matching text</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C3</span>
+                    <div class="button-icon">↔️</div>
+                    <div class="button-title">Expand Selection</div>
+                    <div class="button-command">editor.action.smartSelect.expand</div>
+                    <div class="button-description">Smart expand selection</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C4</span>
+                    <div class="button-icon">↔️</div>
+                    <div class="button-title">Shrink Selection</div>
+                    <div class="button-command">editor.action.smartSelect.shrink</div>
+                    <div class="button-description">Smart shrink selection</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R1 C5</span>
+                    <div class="button-icon">ABC</div>
+                    <div class="button-title">Transform to Upper</div>
+                    <div class="button-command">editor.action.transformToUppercase</div>
+                    <div class="button-description">Convert to uppercase</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C1</span>
+                    <div class="button-icon">abc</div>
+                    <div class="button-title">Transform to Lower</div>
+                    <div class="button-command">editor.action.transformToLowercase</div>
+                    <div class="button-description">Convert to lowercase</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C2</span>
+                    <div class="button-icon">⬆️📝</div>
+                    <div class="button-title">Sort Lines Asc</div>
+                    <div class="button-command">editor.action.sortLinesAscending</div>
+                    <div class="button-description">Sort lines A-Z</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C3</span>
+                    <div class="button-icon">⬇️📝</div>
+                    <div class="button-title">Sort Lines Desc</div>
+                    <div class="button-command">editor.action.sortLinesDescending</div>
+                    <div class="button-description">Sort lines Z-A</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C4</span>
+                    <div class="button-icon">🧹</div>
+                    <div class="button-title">Trim Trailing Space</div>
+                    <div class="button-command">editor.action.trimTrailingWhitespace</div>
+                    <div class="button-description">Remove trailing whitespace</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R2 C5</span>
+                    <div class="button-icon">⬅️➡️</div>
+                    <div class="button-title">Join Lines</div>
+                    <div class="button-command">editor.action.joinLines</div>
+                    <div class="button-description">Join selected lines</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C1</span>
+                    <div class="button-icon">📁</div>
+                    <div class="button-title">Fold All</div>
+                    <div class="button-command">editor.foldAll</div>
+                    <div class="button-description">Collapse all code blocks</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C2</span>
+                    <div class="button-icon">📂</div>
+                    <div class="button-title">Unfold All</div>
+                    <div class="button-command">editor.unfoldAll</div>
+                    <div class="button-description">Expand all code blocks</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C3</span>
+                    <div class="button-icon">📄</div>
+                    <div class="button-title">Toggle Fold</div>
+                    <div class="button-command">editor.toggleFold</div>
+                    <div class="button-description">Toggle current fold</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C4</span>
+                    <div class="button-icon">✂️</div>
+                    <div class="button-title">Show Snippets</div>
+                    <div class="button-command">editor.action.insertSnippet</div>
+                    <div class="button-description">Insert snippet</div>
+                </div>
+                <div class="button-card">
+                    <span class="position-label">R3 C5</span>
+                    <div class="button-icon">⚡</div>
+                    <div class="button-title">Emmet Expand</div>
+                    <div class="button-command">editor.emmet.action.expandAbbreviation</div>
+                    <div class="button-description">Expand Emmet abbreviation</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="print-button" onclick="window.print()">🖨️ Print Cheat Sheet</button>
+
+    <script>
+        // Add smooth scroll behavior
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
